@@ -1,0 +1,883 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Urbanist", sans-serif;
+}
+
+body {
+  background-color: #141414;
+}
+
+header, .s1, .s2, .s3, .s4, .s5, footer {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1, h2, h3, a {
+  color: white;
+}
+
+h1, h2, h3 {
+  font-weight: 500;
+}
+
+p {
+  color: #999999;
+}
+
+h1, h2, h3 {
+  font-weight: 500;
+}
+
+button, nav button {
+  background-color: transparent;
+  color: white;
+  font-size: 1.2rem;
+  border: #262626 1px solid;
+  border-radius: 10px;
+}
+
+.s1 .purpleButton, .purpleButton {
+  background-color: #703BF7;
+  color: white;
+  font-size: 1.2rem;
+  border: #703BF7 1px solid;
+  border-radius: 10px;
+}
+
+.wow {
+  width: 4.5%;
+  height: auto;
+}
+
+.textic {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 13%;
+}
+.textic div {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.textic div button {
+  width: 13%;
+  height: 90%;
+  background-color: #1A1A1A;
+}
+.textic h2 {
+  font-size: 3rem;
+  font-weight: 500;
+}
+.textic p {
+  font-size: 1.2rem;
+  color: #999999;
+  width: 75%;
+}
+
+.underCards {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.underCards .tap {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.underCards .tap p {
+  font-size: 1.3rem;
+}
+.underCards .tap div {
+  width: 8%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.underCards .tap div button {
+  width: 42%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+}
+
+header, nav, .logo, .knopki {
+  background-color: #1A1A1A;
+}
+
+header {
+  height: 8vh;
+}
+header nav {
+  width: 82%;
+  height: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav a {
+  text-decoration: none;
+}
+header nav .logo {
+  display: flex;
+  align-items: center;
+  width: 9%;
+  height: 100%;
+  gap: 10px;
+}
+header nav .logo h3 {
+  color: white;
+  font-size: 1.9rem;
+}
+header nav .knopki {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+  height: 100%;
+}
+header nav .knopki button {
+  width: 22%;
+  border: none;
+}
+header nav .knopki button:hover {
+  border: #262626 1px solid;
+  border-radius: 5px;
+}
+header nav button {
+  height: 70%;
+  width: 10%;
+}
+
+.s1 {
+  height: 200vh;
+}
+.s1 .s1container {
+  width: 85%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.s1 .s1container .s1top {
+  width: 100%;
+  height: 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.s1 .s1container .s1top .s1topl {
+  width: 33%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.s1 .s1container .s1top .s1topl h2 {
+  font-size: 2rem;
+}
+.s1 .s1container .s1top .s1topl div {
+  height: 60%;
+  width: 37%;
+  padding: 0 7px 0 7px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: #262626 1px solid;
+  border-radius: 15px;
+}
+.s1 .s1container .s1top .s1topl div img {
+  width: 15%;
+  height: 47%;
+}
+.s1 .s1container .s1top .s1topl div p {
+  font-size: 1.2rem;
+  color: white;
+}
+.s1 .s1container .s1top .s1topr {
+  width: 10%;
+  height: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.s1 .s1container .s1top .s1topr h3 {
+  font-size: 1.6rem;
+}
+.s1 .s1container .s1top .s1topr p {
+  font-size: 1.2rem;
+}
+.s1 .s1container .s1mid {
+  width: 100%;
+  height: 52%;
+  border: #262626 1px solid;
+  border-radius: 15px;
+  background-color: #1A1A1A;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.s1 .s1container .s1mid .pic {
+  width: 95%;
+  height: 13%;
+  border: #262626 1px solid;
+  border-radius: 15px;
+  background-color: #141414;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.s1 .s1container .s1mid .pic img {
+  height: 80%;
+  width: auto;
+}
+.s1 .s1container .s1mid .s1midbig {
+  width: 95%;
+  height: 65%;
+  display: flex;
+  justify-content: space-between;
+}
+.s1 .s1container .s1mid .s1midbig img {
+  height: 100%;
+  width: 49%;
+}
+.s1 .s1container .s1mid .s1midniz {
+  width: 20%;
+  height: 7%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: #262626 1px solid;
+  border-radius: 40px;
+  background-color: #141414;
+}
+.s1 .s1container .s1mid .s1midniz button {
+  width: 15%;
+  height: 75%;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.s1 .s1container .s1niz {
+  width: 100%;
+  height: 37%;
+  display: flex;
+  justify-content: space-between;
+}
+.s1 .s1container .s1niz h2 {
+  font-size: 1.75rem;
+}
+.s1 .s1container .s1niz p {
+  font-size: 1.4rem;
+  line-height: 1.5;
+}
+.s1 .s1container .s1niz .s1nizl, .s1 .s1container .s1niz .s1nizr {
+  width: 49%;
+  border: #262626 1px solid;
+  border-radius: 15px;
+  background-color: #141414;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 3%;
+}
+.s1 .s1container .s1niz .s1nizl {
+  height: 60%;
+}
+.s1 .s1container .s1niz .s1nizl .textinfo {
+  width: 95%;
+  height: 20%;
+  display: flex;
+  justify-content: space-between;
+}
+.s1 .s1container .s1niz .s1nizl .textinfo h2 {
+  font-size: 1.6rem;
+}
+.s1 .s1container .s1niz .s1nizl .textinfo .inf {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.s1 .s1container .s1niz .s1nizl .textinfo .inf div {
+  height: 50%;
+  width: 80%;
+  display: flex;
+  gap: 10%;
+  align-items: center;
+}
+.s1 .s1container .s1niz .s1nizl .textinfo .inf div img {
+  width: auto;
+  height: 50%;
+}
+.s1 .s1container .s1niz .s1nizl .text {
+  width: 100%;
+  height: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.s1 .s1container .s1niz .s1nizr .nebo {
+  height: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.s1 .s1container .s1niz .s1nizr .nebo .rty {
+  width: 100%;
+  height: auto;
+  min-height: 15%;
+  border-left: #703BF7 3px solid;
+  background-image: linear-gradient(to right, #262626, #141414);
+  max-height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.s1 .s1container .s1niz .s1nizr .nebo .rty div {
+  display: flex;
+  width: 90%;
+  height: 90%;
+  gap: 5%;
+  align-items: center;
+}
+.s1 .s1container .s1niz .s1nizr .nebo .rty div img {
+  width: auto;
+  height: 40%;
+}
+
+.s2 {
+  height: 100vh;
+}
+.s2 .s2container {
+  width: 85%;
+  height: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+.s2 .s2container .s2lc {
+  width: 30%;
+  height: 34%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.s2 .s2container .s2lc h2 {
+  font-weight: 500;
+  font-size: 3rem;
+}
+.s2 .s2container .s2lc p {
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+.s2 .s2container .s2lc img {
+  width: 15%;
+  height: auto;
+}
+.s2 .s2container .dsa {
+  border-radius: 15px;
+  border: #262626 1px solid;
+  align-self: center;
+  width: 60%;
+  height: 100%;
+  background-color: #141414;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.s2 .s2container .dsa .dsaContainer {
+  width: 90%;
+  height: 85%;
+  background-color: #141414;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.s2 .s2container .dsa .dsaContainer .dsaTop {
+  width: 100%;
+  height: 50%;
+  background-color: #141414;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.s2 .s2container .dsa .dsaContainer .dsaTop .rd {
+  width: 100%;
+  background-color: #141414;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.s2 .s2container .dsa .dsaContainer .dsaTop .rd .inp {
+  background-color: #141414;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 25%;
+}
+.s2 .s2container .dsa .dsaContainer .dsaTop .rd .inp div {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.s2 .s2container .dsa .dsaContainer .dsaTop .rd .inp div p {
+  font-size: 1.3rem;
+  color: white;
+}
+.s2 .s2container .dsa .dsaContainer .dsaTop .rd .inp div input {
+  width: 95%;
+  height: 60%;
+  color: #999999;
+  font-size: 1rem;
+  background-color: #1A1A1A;
+  border-radius: 5px;
+  border: #262626 1px solid;
+  padding-left: 10px;
+}
+.s2 .s2container .dsa .dsaContainer .dsaTop .longinp {
+  background-color: #141414;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 25%;
+  width: 100%;
+}
+.s2 .s2container .dsa .dsaContainer .dsaTop .longinp div {
+  height: 65%;
+  width: 98%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  background-color: #1A1A1A;
+  border-radius: 5px;
+  border: #262626 1px solid;
+}
+.s2 .s2container .dsa .dsaContainer .dsaTop .longinp p {
+  font-size: 1.3rem;
+  color: white;
+}
+.s2 .s2container .dsa .dsaContainer .dsaTop .longinp input {
+  width: 93%;
+  height: 80%;
+  color: #999999;
+  font-size: 1rem;
+  background-color: #1A1A1A;
+  border: none;
+  padding-left: 10px;
+}
+.s2 .s2container .dsa .dsaContainer .dsaTop .longinp img {
+  width: 3%;
+  height: auto;
+  background-color: transparent;
+}
+.s2 .s2container .dsa .dsaContainer div {
+  background-color: transparent;
+}
+.s2 .s2container .dsa .dsaContainer .dsaMid {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 30%;
+  background-color: #141414;
+}
+.s2 .s2container .dsa .dsaContainer .dsaMid p {
+  font-size: 1.3rem;
+  color: white;
+}
+.s2 .s2container .dsa .dsaContainer .dsaMid input {
+  background-color: #1A1A1A;
+  border-radius: 5px;
+  border: #262626 1px solid;
+  width: 100%;
+  height: 80%;
+  color: #999999;
+  font-size: 1rem;
+  text-align: left;
+  vertical-align: top;
+  padding: 8px;
+}
+.s2 .s2container .dsa .dsaContainer .dsaNiz {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 10%;
+}
+.s2 .s2container .dsa .dsaContainer .dsaNiz div {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.s2 .s2container .dsa .dsaContainer .dsaNiz div input {
+  width: 20%;
+  height: 25%;
+}
+.s2 .s2container .dsa .dsaContainer .dsaNiz button {
+  width: 25%;
+  height: 77%;
+}
+
+.s3 {
+  height: 280Vh;
+}
+.s3 .s3container {
+  height: 90%;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.s3 .s3container .textic {
+  height: 7%;
+}
+.s3 .s3container .textic p {
+  width: 80%;
+}
+.s3 .s3container .note {
+  width: 100%;
+  height: 3.5%;
+  background-color: #262626;
+  border: #999999 1px solid;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  padding-left: 2%;
+  gap: 1.5%;
+}
+.s3 .s3container .note h3 {
+  font-size: 1.5rem;
+}
+.s3 .s3container .note p {
+  font-size: 1.2rem;
+}
+.s3 .s3container .looong {
+  width: 100%;
+  height: 85%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.s3 .s3container .looong .ll {
+  width: 15%;
+  height: 4%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.s3 .s3container .looong .ll p {
+  font-size: 1.3rem;
+}
+.s3 .s3container .looong .ll h2 {
+  font-size: 2.5rem;
+}
+.s3 .s3container .looong .lr {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.s3 .s3container .looong .lr h3 {
+  font-size: 1.7rem;
+}
+.s3 .s3container .looong .lr p {
+  font-size: 1.1rem;
+}
+.s3 .s3container .looong .lr .grayP {
+  padding: 10px;
+  background-color: #1A1A1A;
+  border-radius: 20px;
+  width: auto;
+  height: auto;
+}
+.s3 .s3container .looong .lr .first, .s3 .s3container .looong .lr .last {
+  width: 100%;
+  border: #262626 1px solid;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.s3 .s3container .looong .lr .first .zagolovok, .s3 .s3container .looong .lr .last .zagolovok {
+  display: flex;
+  width: 95%;
+  height: 15%;
+  justify-content: space-between;
+  align-items: center;
+}
+.s3 .s3container .looong .lr .first .zagolovok button, .s3 .s3container .looong .lr .last .zagolovok button {
+  width: 13%;
+  background-color: #1A1A1A;
+}
+.s3 .s3container .looong .lr .first .doubleDiv, .s3 .s3container .looong .lr .last .doubleDiv {
+  width: 95%;
+  height: 23%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.s3 .s3container .looong .lr .first .doubleDiv .fi, .s3 .s3container .looong .lr .last .doubleDiv .fi {
+  width: 48%;
+  height: 60%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.s3 .s3container .looong .lr .first .doubleDiv .fi div, .s3 .s3container .looong .lr .last .doubleDiv .fi div {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  gap: 5%;
+}
+.s3 .s3container .looong .lr .first .fiLsat, .s3 .s3container .looong .lr .last .fiLsat {
+  width: 95%;
+  height: 13%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.s3 .s3container .looong .lr .first .fiLsat div, .s3 .s3container .looong .lr .last .fiLsat div {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  gap: 2%;
+}
+.s3 .s3container .looong .lr .first {
+  height: 30%;
+}
+.s3 .s3container .looong .lr .first button {
+  height: 65%;
+}
+.s3 .s3container .looong .lr .last {
+  height: 22%;
+}
+.s3 .s3container .looong .lr .last button {
+  height: 85%;
+}
+
+.s4 {
+  height: 100vh;
+}
+.s4 .s4container {
+  width: 85%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.s4 .s4container .textic {
+  height: 20%;
+}
+.s4 .s4container .textic button {
+  height: 80%;
+}
+.s4 .s4container .que {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.s4 .s4container .que .q {
+  width: 32%;
+  height: 90%;
+  border: #1A1A1A 3px solid;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.s4 .s4container .que .q h3 {
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+.s4 .s4container .que .q p {
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+.s4 .s4container .que .q .qCont {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.s4 .s4container .que .q .qCont button {
+  width: 40%;
+  height: 23%;
+  background-color: #1A1A1A;
+  border: #262626 1px solid;
+  border-radius: 15px;
+}
+
+.s5 {
+  height: 40vh;
+  background-image: url(/kartinki/main1/BacgraundS5.png);
+  background-repeat: no-repeat;
+  background-size: 100% 80%;
+  background-position: bottom;
+}
+.s5 .s5container {
+  width: 80%;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+}
+.s5 .s5container div {
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+  gap: 10%;
+}
+.s5 .s5container div h2 {
+  font-size: 2.7rem;
+  font-weight: 500;
+}
+.s5 .s5container div p {
+  font-size: 1.05rem;
+}
+.s5 .s5container button {
+  width: 13%;
+  height: 25%;
+}
+
+footer {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+}
+footer .ftop {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .ftop .ftopCont {
+  width: 80%;
+  height: 65%;
+  display: flex;
+  justify-content: space-between;
+}
+footer .ftop .ftopCont .ftrc {
+  width: 30%;
+  height: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+footer .ftop .ftopCont .ftrc .flogo {
+  width: 36%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .ftop .ftopCont .ftrc .flogo h3 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+footer .ftop .ftopCont .ftrc .inputDiv {
+  width: 100%;
+  height: 40%;
+  border: #262626 1px solid;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5% 0 5%;
+}
+footer .ftop .ftopCont .ftrc .inputDiv input {
+  color: #999999;
+  font-size: 1.2rem;
+  width: 80%;
+  height: 100%;
+  border: none;
+  background-color: #141414;
+}
+footer .ftop .ftopCont .ftlc {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+footer .ftop .ftopCont .ftlc ul {
+  list-style: none;
+  line-height: 2.5;
+}
+footer .ftop .ftopCont .ftlc ul li {
+  font-size: 1.1rem;
+}
+footer .ftop .ftopCont .ftlc ul li a {
+  text-decoration: none;
+}
+footer .fbot {
+  width: 100%;
+  height: 20%;
+  background-color: #1A1A1A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .fbot .fbotCont {
+  width: 80%;
+  height: 100%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .fbot .fbotCont .fblc {
+  width: 30%;
+  height: 100%;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .fbot .fbotCont .fblc p {
+  background-color: transparent;
+  font-size: 1.1rem;
+}
+footer .fbot .fbotCont .fbrc {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1A1A1A;
+}
+footer .fbot .fbotCont .fbrc img {
+  width: 20%;
+  height: auto;
+  border-radius: 30px;
+}/*# sourceMappingURL=details.css.map */

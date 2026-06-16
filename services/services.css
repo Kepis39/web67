@@ -1,0 +1,523 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Urbanist", sans-serif;
+}
+
+body {
+  background-color: #141414;
+}
+
+header, .s1, .s2, .s3, .s4, .s5, footer {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1, h2, h3, a {
+  color: white;
+  background-color: transparent;
+}
+
+p {
+  color: #999999;
+  background-color: transparent;
+}
+
+h1, h2, h3 {
+  font-weight: 500;
+}
+
+button, nav button {
+  background-color: transparent;
+  color: white;
+  font-size: 1.2rem;
+  border: #262626 1px solid;
+  border-radius: 10px;
+}
+
+.s1 .purpleButton, .purpleButton {
+  background-color: #703BF7;
+  color: white;
+  font-size: 1.2rem;
+  border: #703BF7 1px solid;
+  border-radius: 10px;
+}
+
+header, nav, .logo, .knopki {
+  background-color: #1A1A1A;
+}
+
+header {
+  height: 8vh;
+}
+header nav {
+  width: 82%;
+  height: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav a {
+  text-decoration: none;
+}
+header nav .logo {
+  display: flex;
+  align-items: center;
+  width: 9%;
+  height: 100%;
+  gap: 10px;
+}
+header nav .logo h3 {
+  color: white;
+  font-size: 1.9rem;
+}
+header nav .knopki {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+  height: 100%;
+}
+header nav .knopki button {
+  width: 22%;
+  border: none;
+}
+header nav .knopki button:hover {
+  border: #262626 1px solid;
+  border-radius: 5px;
+}
+header nav button {
+  height: 70%;
+  width: 10%;
+}
+
+.wow {
+  width: 4.5%;
+  height: auto;
+}
+
+.textic {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 13%;
+}
+.textic div {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.textic div button {
+  width: 13%;
+  height: 90%;
+  background-color: #1A1A1A;
+}
+.textic h2 {
+  font-size: 3rem;
+  font-weight: 500;
+}
+.textic p {
+  font-size: 1.2rem;
+  color: #999999;
+  width: 75%;
+}
+
+.s1 {
+  height: 60vh;
+  background-color: #1A1A1A;
+  position: relative;
+  background-image: linear-gradient(to right, #262626, #141414);
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.s1 .s1container {
+  margin-top: 7%;
+  width: 80%;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.s1 .s1container h2 {
+  font-weight: 500;
+  font-size: 3rem;
+}
+.s1 .s1container p {
+  font-size: 1.12rem;
+  width: 87%;
+}
+.s1 .niz {
+  height: 42%;
+  width: 100%;
+  background-color: #141414;
+  border: #1A1A1A 15px solid;
+  border-left: none;
+  border-right: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.s1 .niz .nizContainer {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.s1 .niz .nizContainer .option {
+  border: #262626 1px solid;
+  width: 23%;
+  height: 85%;
+  background-color: #1A1A1A;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5%;
+}
+.s1 .niz .nizContainer .option img {
+  background-color: #1A1A1A;
+}
+.s1 .niz .nizContainer .option p {
+  background-color: #1A1A1A;
+  font-size: 1.2rem;
+}
+.s1 .niz .nizContainer .option .verhhh {
+  margin: 10px;
+  margin-bottom: 33%;
+  position: absolute;
+  align-self: flex-end;
+  width: 8%;
+  height: auto;
+}
+.s1 .niz .nizContainer .option img {
+  width: 20%;
+  height: auto;
+}
+
+.fanta {
+  width: 32%;
+  height: 100%;
+  border: #262626 1px solid;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fanta .fantaCont {
+  width: 80%;
+  height: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.fanta .fantaCont div {
+  display: flex;
+  align-items: center;
+  gap: 5%;
+}
+
+.s2 {
+  height: 95vh;
+}
+.s2 .s2container {
+  width: 85%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.s2 .s2container .textic {
+  height: 20%;
+}
+.s2 .s2container .textic p {
+  width: 85%;
+}
+.s2 .s2container .s2midCont {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.s2 .s2container .s2midCont p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+.s2 .s2container .s2midCont .tverh, .s2 .s2container .s2midCont .tverh2 {
+  width: 100%;
+  height: 48%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.s2 .s2container .s2midCont .tniz, .s2 .s2container .s2midCont .tniz2 {
+  width: 32%;
+  height: 100%;
+}
+.s2 .s2container .s2midCont .tniz .fanta, .s2 .s2container .s2midCont .tniz2 .fanta {
+  width: 100%;
+}
+.s2 .s2container .s2midCont .vibe {
+  width: 100%;
+  height: 48%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.s2 .s2container .s2midCont .vibe .vibeCont {
+  width: 65%;
+  height: 100%;
+  background-image: url(/kartinki/service/Card.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-left: 3%;
+}
+.s2 .s2container .s2midCont .vibe .vibeCont div {
+  width: 95%;
+  height: 25%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.s2 .s2container .s2midCont .vibe .vibeCont div h2 {
+  font-size: 2rem;
+}
+.s2 .s2container .s2midCont .vibe .vibeCont div button {
+  width: 17%;
+  height: 100%;
+  background-color: #141414;
+}
+
+.s3 {
+  height: 95vh;
+}
+.s3 .s3container {
+  width: 85%;
+  height: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+.s3 .s3container .s3top {
+  width: 32%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.s3 .s3container .s3top .textic {
+  width: 100%;
+  height: 33%;
+}
+.s3 .s3container .s3top .textic p {
+  width: 100%;
+}
+.s3 .s3container .s3top .textic img {
+  width: 15%;
+}
+.s3 .s3container .s3top .ogo {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  border-radius: 15px;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 0 5% 0 5%;
+  background-image: url(/kartinki/service/Card.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.s3 .s3container .s3top .ogo h3 {
+  font-size: 1.5rem;
+}
+.s3 .s3container .s3top .ogo p {
+  font-size: 1.2rem;
+  color: white;
+  line-height: 1.5;
+}
+.s3 .s3container .s3top .ogo button {
+  height: 20%;
+  background-color: #141414;
+}
+.s3 .s3container .s3net {
+  width: 65%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #1A1A1A;
+  border: #1A1A1A 15px solid;
+  border-radius: 15px;
+}
+.s3 .s3container .s3net .pepsi {
+  display: flex;
+  justify-content: space-between;
+  height: 48%;
+}
+.s3 .s3container .s3net .pepsi .fanta p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+.s3 .s3container .s3net .pepsi .fanta {
+  width: 48%;
+  background-color: #141414;
+}
+
+.s5 {
+  height: 40vh;
+  background-image: url(/kartinki/main1/BacgraundS5.png);
+  background-repeat: no-repeat;
+  background-size: 100% 80%;
+  background-position: bottom;
+}
+.s5 .s5container {
+  width: 80%;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+}
+.s5 .s5container div {
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+  gap: 10%;
+}
+.s5 .s5container div h2 {
+  font-size: 2.7rem;
+  font-weight: 500;
+}
+.s5 .s5container div p {
+  font-size: 1.05rem;
+}
+.s5 .s5container button {
+  width: 13%;
+  height: 25%;
+}
+
+footer {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+}
+footer .ftop {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .ftop .ftopCont {
+  width: 80%;
+  height: 65%;
+  display: flex;
+  justify-content: space-between;
+}
+footer .ftop .ftopCont .ftrc {
+  width: 30%;
+  height: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+footer .ftop .ftopCont .ftrc .flogo {
+  width: 36%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .ftop .ftopCont .ftrc .flogo h3 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+footer .ftop .ftopCont .ftrc .inputDiv {
+  width: 100%;
+  height: 40%;
+  border: #262626 1px solid;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5% 0 5%;
+}
+footer .ftop .ftopCont .ftrc .inputDiv input {
+  color: #999999;
+  font-size: 1.2rem;
+  width: 80%;
+  height: 100%;
+  border: none;
+  background-color: #141414;
+}
+footer .ftop .ftopCont .ftlc {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+footer .ftop .ftopCont .ftlc ul {
+  list-style: none;
+  line-height: 2.5;
+}
+footer .ftop .ftopCont .ftlc ul li {
+  font-size: 1.1rem;
+}
+footer .ftop .ftopCont .ftlc ul li a {
+  text-decoration: none;
+}
+footer .fbot {
+  width: 100%;
+  height: 20%;
+  background-color: #1A1A1A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .fbot .fbotCont {
+  width: 80%;
+  height: 100%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .fbot .fbotCont .fblc {
+  width: 30%;
+  height: 100%;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .fbot .fbotCont .fblc p {
+  background-color: transparent;
+  font-size: 1.1rem;
+}
+footer .fbot .fbotCont .fbrc {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1A1A1A;
+}
+footer .fbot .fbotCont .fbrc img {
+  width: 20%;
+  height: auto;
+  border-radius: 30px;
+}/*# sourceMappingURL=services.css.map */

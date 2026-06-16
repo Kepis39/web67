@@ -1,0 +1,723 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #141414;
+  font-family: "Urbanist", sans-serif;
+}
+
+header, .s1, .s2, .s3, .s4, footer {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1, h2, h3, a {
+  color: white;
+  background-color: transparent;
+}
+
+p {
+  color: #999999;
+  background-color: transparent;
+}
+
+button, nav button {
+  background-color: transparent;
+  color: white;
+  font-size: 1.2rem;
+  border: #262626 1px solid;
+  border-radius: 10px;
+}
+
+.s1 .purpleButton, .purpleButton {
+  background-color: #703BF7;
+  color: white;
+  font-size: 1.2rem;
+  border: #703BF7 1px solid;
+  border-radius: 10px;
+}
+
+header, nav, .logo, .knopki {
+  background-color: #1A1A1A;
+}
+
+header {
+  height: 8vh;
+}
+header nav {
+  width: 82%;
+  height: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav a {
+  text-decoration: none;
+}
+header nav .logo {
+  display: flex;
+  align-items: center;
+  width: 9%;
+  height: 100%;
+  gap: 10px;
+}
+header nav .logo h3 {
+  color: white;
+  font-size: 1.9rem;
+}
+header nav .knopki {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+  height: 100%;
+}
+header nav .knopki button {
+  width: 22%;
+  border: none;
+}
+header nav .knopki button:hover {
+  border: #262626 1px solid;
+  border-radius: 5px;
+}
+header nav button {
+  height: 70%;
+  width: 10%;
+}
+
+.wow {
+  width: 4.5%;
+  height: auto;
+}
+
+.textic {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 13%;
+}
+.textic div {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.textic div button {
+  width: 13%;
+  height: 90%;
+  background-color: #1A1A1A;
+}
+.textic h2 {
+  font-size: 3rem;
+  font-weight: 500;
+}
+.textic p {
+  font-size: 1.2rem;
+  color: #999999;
+  width: 75%;
+}
+
+.s1 {
+  height: 42vh;
+  position: relative;
+  background-image: linear-gradient(to right, #262626, #141414);
+}
+.s1 .s1container {
+  background-color: transparent;
+  width: 80%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.s1 .s1container h2 {
+  font-weight: 500;
+  font-size: 3rem;
+  background-color: transparent;
+}
+.s1 .s1container p {
+  font-size: 1.12rem;
+  width: 87%;
+  background-color: transparent;
+}
+
+.find {
+  position: absolute;
+  margin-top: 5%;
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  width: 80vw;
+  height: 20vh;
+  background-color: transparent;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+.find .search {
+  width: 83%;
+  height: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.find .search input {
+  width: 80%;
+  height: 100%;
+  border: none;
+  padding-left: 2%;
+  color: #999999;
+  font-size: 1.5rem;
+}
+.find .search button {
+  margin-right: 2%;
+  width: 15%;
+  height: 65%;
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+  align-items: center;
+}
+.find .search button img {
+  background-color: transparent;
+}
+.find .fopt {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  background-color: #1A1A1A;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.find .fopt .infOut {
+  width: 19%;
+  height: 95%;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1% 0 1%;
+}
+.find .fopt .infOut div {
+  height: 90%;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  gap: 8%;
+}
+.find .fopt .infOut button {
+  border: none;
+}
+.find .fopt, .find .search {
+  border: #1A1A1A 15px solid;
+  border-radius: 15px;
+}
+
+.underCards {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.underCards .tap {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.underCards .tap p {
+  font-size: 1.3rem;
+}
+.underCards .tap div {
+  width: 8%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.underCards .tap div button {
+  width: 42%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+}
+
+.s2 {
+  height: 120vh;
+}
+.s2 .s2container {
+  margin-top: 7%;
+  width: 85%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.s2 .s2container .textic {
+  height: 15%;
+}
+.s2 .s2container .textic p {
+  width: 100%;
+}
+.s2 .s2container .pipu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 75%;
+}
+.s2 .s2container .pipu .cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 85%;
+}
+.s2 .s2container .pipu .cards .card {
+  height: 100%;
+  width: 32%;
+  border: #262626 1px solid;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.s2 .s2container .pipu .cards .card .cardCont {
+  width: 80%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.s2 .s2container .pipu .cards .card .cardCont .mainimg {
+  width: 100%;
+  height: auto;
+}
+.s2 .s2container .pipu .cards .card .cardCont .containerCont {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.s2 .s2container .pipu .cards .card .cardCont .containerCont h3 {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+.s2 .s2container .pipu .cards .card .cardCont .containerCont p {
+  font-size: 1.2rem;
+  color: #999999;
+}
+.s2 .s2container .pipu .cards .card .cardCont .containerCont .houseOpt {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.s2 .s2container .pipu .cards .card .cardCont .containerCont .houseOpt button {
+  height: 100%;
+  width: auto;
+  padding: 0 10px 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3px;
+}
+.s2 .s2container .pipu .cards .card .cardCont .containerCont .houseOpt button img {
+  height: 45%;
+  width: auto;
+}
+.s2 .s2container .pipu .cards .card .cardCont .containerCont .price {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.s2 .s2container .pipu .cards .card .cardCont .containerCont .price button {
+  height: 100%;
+  width: 65%;
+}
+
+.s3 {
+  height: 150vh;
+}
+.s3 .s3container {
+  width: 80%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.s3 .s3container .dsa {
+  border-radius: 15px;
+  border: #262626 1px solid;
+  align-self: center;
+  width: 100%;
+  height: 70%;
+  background-color: #141414;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.s3 .s3container .dsa .dsaContainer {
+  width: 90%;
+  height: 85%;
+  background-color: #141414;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.s3 .s3container .dsa .dsaContainer .dsaTop {
+  width: 100%;
+  height: 50%;
+  background-color: #141414;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.s3 .s3container .dsa .dsaContainer .dsaTop .rd, .s3 .s3container .dsa .dsaContainer .dsaTop .ld {
+  width: 48%;
+  background-color: #141414;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.s3 .s3container .dsa .dsaContainer .dsaTop .rd .inp, .s3 .s3container .dsa .dsaContainer .dsaTop .ld .inp {
+  background-color: #141414;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 25%;
+}
+.s3 .s3container .dsa .dsaContainer .dsaTop .rd .inp div, .s3 .s3container .dsa .dsaContainer .dsaTop .ld .inp div {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.s3 .s3container .dsa .dsaContainer .dsaTop .rd .inp div p, .s3 .s3container .dsa .dsaContainer .dsaTop .ld .inp div p {
+  font-size: 1.3rem;
+  color: white;
+}
+.s3 .s3container .dsa .dsaContainer .dsaTop .rd .inp div input, .s3 .s3container .dsa .dsaContainer .dsaTop .ld .inp div input {
+  width: 85%;
+  height: 60%;
+  color: #999999;
+  font-size: 1rem;
+  background-color: #1A1A1A;
+  border-radius: 5px;
+  border: #262626 1px solid;
+  padding-left: 10px;
+}
+.s3 .s3container .dsa .dsaContainer .dsaTop .rd .inp div .val, .s3 .s3container .dsa .dsaContainer .dsaTop .ld .inp div .val {
+  height: 62%;
+  width: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: row;
+  background-color: #1A1A1A;
+  border-radius: 5px;
+  border: #262626 1px solid;
+}
+.s3 .s3container .dsa .dsaContainer .dsaTop .rd .inp div .val input, .s3 .s3container .dsa .dsaContainer .dsaTop .ld .inp div .val input {
+  width: 85%;
+  height: 90%;
+  border: none;
+}
+.s3 .s3container .dsa .dsaContainer .dsaTop .rd .inp div .val img, .s3 .s3container .dsa .dsaContainer .dsaTop .ld .inp div .val img {
+  width: 8%;
+  height: auto;
+  background-color: transparent;
+}
+.s3 .s3container .dsa .dsaContainer .dsaTop .longinp {
+  background-color: #141414;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 25%;
+}
+.s3 .s3container .dsa .dsaContainer .dsaTop .longinp div {
+  height: 65%;
+  width: 93%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  background-color: #1A1A1A;
+  border-radius: 5px;
+  border: #262626 1px solid;
+}
+.s3 .s3container .dsa .dsaContainer .dsaTop .longinp p {
+  font-size: 1.3rem;
+  color: white;
+}
+.s3 .s3container .dsa .dsaContainer .dsaTop .longinp input {
+  width: 93%;
+  height: 80%;
+  color: #999999;
+  font-size: 1rem;
+  background-color: #1A1A1A;
+  border: none;
+  padding-left: 10px;
+}
+.s3 .s3container .dsa .dsaContainer .dsaTop .longinp img {
+  width: 4%;
+  height: auto;
+  background-color: transparent;
+}
+.s3 .s3container .dsa .dsaContainer div {
+  background-color: transparent;
+}
+.s3 .s3container .dsa .dsaContainer .minp {
+  background-color: #141414;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 25%;
+}
+.s3 .s3container .dsa .dsaContainer .minp .qwe .vniz {
+  margin-top: 11%;
+}
+.s3 .s3container .dsa .dsaContainer .minp .qwe {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.s3 .s3container .dsa .dsaContainer .minp .qwe p {
+  font-size: 1.3rem;
+  color: white;
+}
+.s3 .s3container .dsa .dsaContainer .minp .qwe div {
+  background-color: #1A1A1A;
+  border-radius: 5px;
+  border: #262626 1px solid;
+  width: 80%;
+  height: 58%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.s3 .s3container .dsa .dsaContainer .minp .qwe div img {
+  background-color: transparent;
+  width: 10%;
+  height: auto;
+}
+.s3 .s3container .dsa .dsaContainer .minp .qwe div input {
+  background-color: #1A1A1A;
+  border: none;
+  padding-left: 10px;
+  width: 70%;
+  height: 100%;
+  color: #999999;
+  font-size: 1rem;
+}
+.s3 .s3container .dsa .dsaContainer .minp .qwe div .krug {
+  width: 10%;
+  height: auto;
+}
+.s3 .s3container .dsa .dsaContainer .dsaMid {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 30%;
+  background-color: #141414;
+}
+.s3 .s3container .dsa .dsaContainer .dsaMid p {
+  font-size: 1.3rem;
+  color: white;
+}
+.s3 .s3container .dsa .dsaContainer .dsaMid input {
+  background-color: #1A1A1A;
+  border-radius: 5px;
+  border: #262626 1px solid;
+  width: 100%;
+  height: 80%;
+  color: #999999;
+  font-size: 1rem;
+  text-align: left;
+  vertical-align: top;
+  padding: 8px;
+}
+.s3 .s3container .dsa .dsaContainer .dsaNiz {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 10%;
+}
+.s3 .s3container .dsa .dsaContainer .dsaNiz div {
+  width: 28%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.s3 .s3container .dsa .dsaContainer .dsaNiz div input {
+  width: 20%;
+  height: 25%;
+}
+.s3 .s3container .dsa .dsaContainer .dsaNiz button {
+  width: 17%;
+  height: 77%;
+}
+
+.s4 {
+  height: 40vh;
+  background-image: url(/kartinki/main1/BacgraundS5.png);
+  background-repeat: no-repeat;
+  background-size: 100% 80%;
+  background-position: bottom;
+}
+.s4 .s4container {
+  width: 80%;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+}
+.s4 .s4container div {
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+  gap: 10%;
+}
+.s4 .s4container div h2 {
+  font-size: 2.7rem;
+  font-weight: 500;
+}
+.s4 .s4container div p {
+  font-size: 1.05rem;
+}
+.s4 .s4container button {
+  width: 13%;
+  height: 25%;
+}
+
+footer {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+}
+footer .ftop {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .ftop .ftopCont {
+  width: 80%;
+  height: 65%;
+  display: flex;
+  justify-content: space-between;
+}
+footer .ftop .ftopCont .ftrc {
+  width: 30%;
+  height: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+footer .ftop .ftopCont .ftrc .flogo {
+  width: 36%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .ftop .ftopCont .ftrc .flogo h3 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+footer .ftop .ftopCont .ftrc .inputDiv {
+  width: 100%;
+  height: 40%;
+  border: #262626 1px solid;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5% 0 5%;
+}
+footer .ftop .ftopCont .ftrc .inputDiv input {
+  color: #999999;
+  font-size: 1.2rem;
+  width: 80%;
+  height: 100%;
+  border: none;
+}
+footer .ftop .ftopCont .ftlc {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+footer .ftop .ftopCont .ftlc ul {
+  list-style: none;
+  line-height: 2.5;
+}
+footer .ftop .ftopCont .ftlc ul li {
+  font-size: 1.1rem;
+}
+footer .ftop .ftopCont .ftlc ul li a {
+  text-decoration: none;
+}
+footer .fbot {
+  width: 100%;
+  height: 20%;
+  background-color: #1A1A1A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .fbot .fbotCont {
+  width: 80%;
+  height: 100%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .fbot .fbotCont .fblc {
+  width: 30%;
+  height: 100%;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .fbot .fbotCont .fblc p {
+  background-color: transparent;
+  font-size: 1.1rem;
+}
+footer .fbot .fbotCont .fbrc {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1A1A1A;
+}
+footer .fbot .fbotCont .fbrc img {
+  width: 20%;
+  height: auto;
+  border-radius: 30px;
+}/*# sourceMappingURL=properties.css.map */

@@ -1,0 +1,577 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Urbanist", sans-serif;
+}
+
+body {
+  background-color: #141414;
+}
+
+header, .s1, .s2, .s3, .s4, .s5, footer {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1, h2, h3, a {
+  color: white;
+}
+
+.purpleButton {
+  background-color: #703BF7;
+  color: white;
+  font-size: 1.2rem;
+  border: #703BF7 1px solid;
+  border-radius: 10px;
+}
+
+h1, h2, h3 {
+  font-weight: 500;
+}
+
+p {
+  color: #999999;
+}
+
+h1, h2, h3 {
+  font-weight: 500;
+}
+
+button, nav button {
+  background-color: transparent;
+  color: white;
+  font-size: 1.2rem;
+  border: #262626 1px solid;
+  border-radius: 10px;
+}
+
+.wow {
+  width: 4.5%;
+  height: auto;
+}
+
+.textic {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 13%;
+}
+.textic div {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.textic div button {
+  width: 13%;
+  height: 90%;
+  background-color: #1A1A1A;
+}
+.textic h2 {
+  font-size: 3rem;
+  font-weight: 500;
+}
+.textic p {
+  font-size: 1.2rem;
+  color: #999999;
+  width: 75%;
+}
+
+header, nav, .logo, .knopki {
+  background-color: #1A1A1A;
+}
+
+header {
+  height: 8vh;
+}
+header nav {
+  width: 82%;
+  height: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav a {
+  text-decoration: none;
+}
+header nav .logo {
+  display: flex;
+  align-items: center;
+  width: 9%;
+  height: 100%;
+  gap: 10px;
+}
+header nav .logo h3 {
+  color: white;
+  font-size: 1.9rem;
+}
+header nav .knopki {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+  height: 100%;
+}
+header nav .knopki button {
+  width: 22%;
+  border: none;
+}
+header nav .knopki button:hover {
+  border: #262626 1px solid;
+  border-radius: 5px;
+}
+header nav button {
+  height: 70%;
+  width: 10%;
+}
+
+.s1 {
+  height: 60vh;
+  background-color: #1A1A1A;
+  position: relative;
+  background-image: linear-gradient(to right, #262626, #141414);
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.s1 .s1container {
+  margin-top: 7%;
+  width: 80%;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.s1 .s1container h2 {
+  font-weight: 500;
+  font-size: 3rem;
+}
+.s1 .s1container p {
+  font-size: 1.12rem;
+  width: 87%;
+}
+.s1 .niz {
+  height: 42%;
+  width: 100%;
+  background-color: #141414;
+  border: #1A1A1A 15px solid;
+  border-left: none;
+  border-right: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.s1 .niz .nizContainer {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.s1 .niz .nizContainer .option {
+  border: #262626 1px solid;
+  width: 23%;
+  height: 85%;
+  background-color: #1A1A1A;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5%;
+}
+.s1 .niz .nizContainer .option img {
+  background-color: #1A1A1A;
+}
+.s1 .niz .nizContainer .option p {
+  background-color: #1A1A1A;
+  font-size: 1.2rem;
+}
+.s1 .niz .nizContainer .option .verhhh {
+  margin: 10px;
+  margin-bottom: 33%;
+  position: absolute;
+  align-self: flex-end;
+  width: 8%;
+  height: auto;
+}
+.s1 .niz .nizContainer .option img {
+  width: 20%;
+  height: auto;
+}
+
+.s2 {
+  height: 130vh;
+}
+.s2 .s2container {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.s2 .s2container .textic {
+  height: 15%;
+}
+.s2 .s2container .textic p {
+  width: 90%;
+}
+.s2 .s2container .form3 {
+  padding: 60px;
+  width: 100%;
+  height: 75%;
+  border: #262626 1px solid;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.s2 .s2container .form3 p {
+  color: white;
+  font-size: 1.3rem;
+}
+.s2 .s2container .form3 input {
+  background-color: #1A1A1A;
+  border: #262626 1px solid;
+  width: 22vw;
+  height: 6vh;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+}
+.s2 .s2container .form3 .f3top,
+.s2 .s2container .form3 .f3top2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.s2 .s2container .form3 .f3top .kartinka1, .s2 .s2container .form3 .f3top .kartinka2,
+.s2 .s2container .form3 .f3top2 .kartinka1,
+.s2 .s2container .form3 .f3top2 .kartinka2 {
+  position: absolute;
+  margin-top: 1.5%;
+  margin-left: -2%;
+}
+.s2 .s2container .form3 .f3top3 div {
+  width: 100%;
+  height: 10vh;
+  border: #262626 1px solid;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #1A1A1A;
+}
+.s2 .s2container .form3 .f3top4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.s2 .s2container .form3 .f3top4 div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 33%;
+}
+.s2 .s2container .form3 .f3top4 div input {
+  width: 1.3vw;
+}
+.s2 .s2container .form3 .f3top4 button {
+  width: 20%;
+  padding: 20px;
+  border: #703BF7 1px solid;
+  background-color: #703BF7;
+  color: white;
+  border-radius: 10px;
+}
+
+.s3 {
+  height: 100vh;
+}
+.s3 .s3container {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.s3 .s3container .textic {
+  height: 15%;
+}
+.s3 .s3container .textic p {
+  width: 90%;
+}
+.s3 .ARL {
+  width: 30vw;
+  display: flex;
+  justify-content: space-between;
+  height: 10vh;
+  background-color: #1A1A1A;
+  border-radius: 10px;
+  padding: 20px;
+}
+.s3 .ARL button {
+  padding: 10px;
+  width: 30%;
+  background-color: #1A1A1A;
+  border-radius: 10px;
+  color: white;
+  border: #262626 1px solid;
+}
+.s3 .ARL button:first-child {
+  background-color: #141414;
+}
+
+.infa {
+  height: 60%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.infa h3 {
+  font-size: 1.8rem;
+}
+.infa p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+.infa .infoCard {
+  padding: 40px;
+  height: 100%;
+  width: 49%;
+  border-radius: 10px;
+  border: #262626 1px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.infa .infoCard .pupi {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+.infa .infoCard .pupi div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  height: 5vh;
+  border-radius: 30px;
+  background-color: #1A1A1A;
+  border: #262626 1px solid;
+}
+.infa .infoCard .pupi div img {
+  height: 1.8vh;
+}
+.infa .infoCard button {
+  height: 6vh;
+  border-radius: 10px;
+}
+
+.s4 {
+  height: 100vh;
+}
+.s4 .peoples {
+  width: 85%;
+  height: 80%;
+  background-image: url(/kartinki/service/Card.png);
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 50px;
+}
+.s4 .peoples .pp {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.s4 .peoples img {
+  width: 48%;
+  height: 100%;
+}
+.s4 .peoples .sixseven {
+  width: 48%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.s4 .peoples .sixseven .wow {
+  width: 15%;
+  height: auto;
+  background-color: transparent;
+}
+.s4 .peoples .sixseven p {
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+.s4 .peoples .sixseven h1 {
+  font-size: 3rem;
+}
+.s4 .peoples .top, .s4 .peoples .bot, .s4 .peoples .center {
+  height: 30%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.s4 .peoples .nicho {
+  width: 48%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.s5 {
+  height: 40vh;
+  background-image: url(/kartinki/main1/BacgraundS5.png);
+  background-repeat: no-repeat;
+  background-size: 100% 80%;
+  background-position: bottom;
+}
+.s5 .s5container {
+  width: 80%;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+}
+.s5 .s5container div {
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+  gap: 10%;
+}
+.s5 .s5container div h2 {
+  font-size: 2.7rem;
+  font-weight: 500;
+}
+.s5 .s5container div p {
+  font-size: 1.05rem;
+}
+.s5 .s5container button {
+  width: 13%;
+  height: 25%;
+}
+
+footer {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+}
+footer .ftop {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .ftop .ftopCont {
+  width: 80%;
+  height: 65%;
+  display: flex;
+  justify-content: space-between;
+}
+footer .ftop .ftopCont .ftrc {
+  width: 30%;
+  height: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+footer .ftop .ftopCont .ftrc .flogo {
+  width: 36%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .ftop .ftopCont .ftrc .flogo h3 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+footer .ftop .ftopCont .ftrc .inputDiv {
+  width: 100%;
+  height: 40%;
+  border: #262626 1px solid;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5% 0 5%;
+}
+footer .ftop .ftopCont .ftrc .inputDiv input {
+  color: #999999;
+  font-size: 1.2rem;
+  width: 80%;
+  height: 100%;
+  border: none;
+  background-color: #141414;
+}
+footer .ftop .ftopCont .ftlc {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+footer .ftop .ftopCont .ftlc ul {
+  list-style: none;
+  line-height: 2.5;
+}
+footer .ftop .ftopCont .ftlc ul li {
+  font-size: 1.1rem;
+}
+footer .ftop .ftopCont .ftlc ul li a {
+  text-decoration: none;
+}
+footer .fbot {
+  width: 100%;
+  height: 20%;
+  background-color: #1A1A1A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .fbot .fbotCont {
+  width: 80%;
+  height: 100%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .fbot .fbotCont .fblc {
+  width: 30%;
+  height: 100%;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .fbot .fbotCont .fblc p {
+  background-color: transparent;
+  font-size: 1.1rem;
+}
+footer .fbot .fbotCont .fbrc {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1A1A1A;
+}
+footer .fbot .fbotCont .fbrc img {
+  width: 20%;
+  height: auto;
+  border-radius: 30px;
+}/*# sourceMappingURL=contact.css.map */
