@@ -10,15 +10,15 @@ const inf = document.getElementById('office-cards-container');
                 <p>${i.desc}</p>
                 <div class="office-details">
                     <div>
-                        <img src="/kartinki/properties/mail (2).png" alt="">
+                        <img src="kartinki/properties/mail (2).png" alt="">
                         <p><span>${i.mail}</span></p>
                     </div>
                     <div>
-                        <img src="/kartinki/properties/number.png" alt="">
+                        <img src="kartinki/properties/number.png" alt="">
                         <p><span>${i.phone}</span></p>
                     </div>
                     <div>
-                        <img src="/kartinki/Details/location.png" alt="">
+                        <img src="kartinki/Details/location.png" alt="">
                         <p><span>${i.loc}</span></p>
                     </div>
                 </div>
@@ -28,7 +28,7 @@ const inf = document.getElementById('office-cards-container');
 
 
 const peoples = [
-    {img1: "/kartinki/contact/Image (2).png", img2: "/kartinki/contact/Image (3).png", img3: "/kartinki/contact/Image (4).png", img4: "/kartinki/contact/Image (5).png", img5: "/kartinki/contact/Image (6).png", img6: "/kartinki/contact/Image (7).png",},
+    {img1: "kartinki/contact/Image (2).png", img2: "kartinki/contact/Image (3).png", img3: "kartinki/contact/Image (4).png", img4: "kartinki/contact/Image (5).png", img5: "kartinki/contact/Image (6).png", img6: "kartinki/contact/Image (7).png",},
 ];
 const ludiaaa = document.getElementById('gallery-container');
 ludiaaa.innerHTML = peoples.map(
@@ -46,7 +46,7 @@ ludiaaa.innerHTML = peoples.map(
             </div>
             <div class="gallery-bottom">
                 <div class="gallery-text">
-                    <img class="badge-icon" src="/kartinki/main1/wow.png" alt="">
+                    <img class="badge-icon" src="kartinki/main1/wow.png" alt="">
                     <h1>Explore Estatein's World</h1>
                     <p>Step inside the world of Estatein, where professionalism meets warmth, and expertise meets
                         passion. Our gallery offers a glimpse into our team and workspaces, inviting you to get to know
