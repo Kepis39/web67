@@ -6,14 +6,14 @@
     font-family: 'Urbanist', sans-serif;
 }
 body{background-color: #141414;}
-header, .s1, .s2, .s3, .s4, .s5, footer{
+header, .hero, .contact-form, .offices, .gallery, .cta, footer{
     width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 h1, h2, h3, a{color: white;}
-.purpleButton{
+.btn-primary{
     background-color: #703BF7;
     color: white;
     font-size: 1.2rem;
@@ -30,11 +30,11 @@ button, nav button{
     border: #262626 1px solid;
     border-radius: 10px;
 }
-.wow{
+.badge-icon{
     width: 4.5%;
     height: auto;
     }
-.textic{
+.section-header{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -55,7 +55,7 @@ button, nav button{
         h2{font-size: 3rem; font-weight: 500;}
         p{font-size: 1.2rem; color: #999999; width: 75%;}
 }
-header, nav, .logo, .knopki{background-color: #1A1A1A;}
+header, nav, .brand, .nav-links{background-color: #1A1A1A;}
 header{
     height: 8vh;
     nav{
@@ -65,7 +65,7 @@ header{
         justify-content: space-between;
         align-items: center;
         a{text-decoration: none;}
-            .logo{
+            .brand{
                 display: flex;
                 align-items: center;
                 width: 9%;
@@ -76,7 +76,7 @@ header{
                         font-size: 1.9rem;
                     }
             }
-            .knopki{
+            .nav-links{
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
@@ -97,7 +97,7 @@ header{
             }
     }
 }
-.s1{
+.hero{
     height: 60vh;
     background-color: #1A1A1A;
     position: relative;
@@ -105,7 +105,7 @@ header{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    .s1container{
+    .hero-container{
         margin-top: 7%;
         width: 80%;
         height: 20%;
@@ -115,7 +115,7 @@ header{
         h2{font-weight: 500; font-size: 3rem;}
         p{font-size: 1.12rem; width:87%;}
     }
-     .niz{
+     .contact-bar{
         height: 42%;
         width: 100%;
         background-color: #141414;
@@ -125,13 +125,13 @@ header{
         display: flex;
         justify-content: center;
         align-items: center;
-        .nizContainer{
+        .contact-bar-inner{
             width: 100%;
             height: 90%;
             display: flex;
             align-items: center;
             justify-content: space-evenly;
-            .option{
+            .contact-item{
                 border: #262626 1px solid;
                 width: 23%;
                 height: 85%;
@@ -145,7 +145,7 @@ header{
                 gap: 5%;
                 img{background-color: #1A1A1A;}
                 p{background-color: #1A1A1A; font-size: 1.2rem;}
-                .verhhh{
+                .arrow-icon{
                     margin: 10px;
                     margin-bottom: 33%;
                     position: absolute;
@@ -158,19 +158,19 @@ header{
         }
     }
 }
-.s2{
+.contact-form{
     height: 130vh;
-    .s2container{
+    .form-container{
         width: 80%;
         height: 80%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        .textic{
+        .section-header{
             height: 15%;
             p{width: 90%;}
         }
-         .form3 {
+         .form-wrapper {
         padding: 60px;
         width: 100%;
         height: 75%;
@@ -189,18 +189,18 @@ header{
             border-radius: 10px;
             font-size: 1.2rem;
         }
-        .f3top,
-        .f3top2 {
+        .form-row-1,
+        .form-row-2 {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            .kartinka1, .kartinka2 {
+            .dropdown-icon-1, .dropdown-icon-2 {
                 position: absolute;
                 margin-top: 1.5%;
                 margin-left: -2%;
             }
         }
-        .f3top3 {
+        .form-message {
             div {
                 width: 100%;
                 height: 10vh;
@@ -210,7 +210,7 @@ header{
                 background-color: #1A1A1A;
             }
         }
-        .f3top4 {
+        .form-submit {
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -235,20 +235,20 @@ header{
     }
     }
 }
-.s3{
+.offices{
     height: 100vh;
-    .s3container{
+    .offices-container{
         width: 80%;
         height: 80%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        .textic{
+        .section-header{
             height: 15%;
             p{width: 90%;};
         }
     }
-    .ARL {
+    .office-tabs {
         width: 30vw;
         display: flex;
         justify-content: space-between;
@@ -269,14 +269,14 @@ header{
         }
     }
 }
-.infa {
+.office-cards {
         height: 60%;
         width: 100%;
         display: flex;
         justify-content: space-between;
         h3{font-size: 1.8rem;}
         p{font-size: 1.2rem; line-height: 1.5;}
-        .infoCard {
+        .office-card {
             padding: 40px;
             height: 100%;
             width: 49%;
@@ -285,7 +285,7 @@ header{
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            .pupi {
+            .office-details {
                 display: flex;
                 justify-content: space-between;
                 width: 80%;
@@ -309,9 +309,9 @@ header{
                 }
         }
     }
-.s4{
+.gallery{
     height: 100vh;
-            .peoples{
+            .gallery-wrapper{
                 width: 85%;
                 height: 80%;
             background-image: url(/kartinki/service/Card.png);
@@ -322,7 +322,7 @@ header{
             flex-direction: column;
             justify-content: space-between;
             padding: 50px;
-            .pp{
+            .gallery-grid{
                 width: 100%; height: 100%;
                 display: flex;
                 flex-direction: column;
@@ -332,38 +332,38 @@ header{
                 width: 48%;
                 height: 100%;
             }
-            .sixseven{
+            .gallery-text{
                 width: 48%;
                 height: 100%;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-evenly;
-                .wow{
+                .badge-icon{
                     width: 15%; height: auto; background-color: transparent;
                 }
                 p{font-size: 1.3rem; line-height: 1.5;}
                 h1{font-size: 3rem;}
             }
-            .top, .bot, .center{
+            .gallery-top, .gallery-bottom, .gallery-center{
                 height: 30%;
                 width: 100%;
                 display: flex;
                 justify-content: space-between;
             }
-            .nicho{
+            .gallery-pair{
                 width: 48%;
                 display: flex;
                 justify-content: space-between;
             }
         }
     }
-    .s5{
+    .cta{
     height: 40vh;
     background-image: url(/kartinki/main1/BacgraundS5.png);
     background-repeat: no-repeat;
     background-size: 100% 80%;
     background-position: bottom;
-    .s5container{
+    .cta-container{
         width: 80%;
         height: 60%;
         display: flex;
@@ -390,31 +390,31 @@ footer{
     height: 50vh;
     display: flex;
     flex-direction: column;
-    .ftop{
+    .footer-top{
         width: 100%;
         height: 80%;
         display: flex;
         justify-content: center;
         align-items: center;
-        .ftopCont{
+        .footer-top-inner{
             width: 80%;
             height: 65%;
             display: flex;
             justify-content: space-between;
-            .ftrc{
+            .footer-brand{
                 width: 30%;
                 height: 55%;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
-                .flogo{
+                .footer-logo{
                     width:36%;
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
                     h3{font-size: 2rem; font-weight: 500;}
                 }
-                .inputDiv{
+                .newsletter{
                     width: 100%;
                     height: 40%;
                     border: #262626 1px solid;
@@ -433,7 +433,7 @@ footer{
                     }
                 }
             }
-            .ftlc{
+            .footer-links{
                 width: 60%;
                 height: 100%;
                 display: flex;
@@ -451,21 +451,21 @@ footer{
             }
         }
     }
-    .fbot{
+    .footer-bottom{
         width: 100%;
         height: 20%;
         background-color: #1A1A1A;
         display: flex;
         justify-content: center;
         align-items: center;
-        .fbotCont{
+        .footer-bottom-inner{
             width: 80%;
             height: 100%;
             background-color: transparent;
             display: flex;
             align-items: center;
             justify-content: space-between;
-            .fblc{
+            .footer-copyright{
                 width: 30%;
                 height: 100%;
                 background-color: transparent;
@@ -474,7 +474,7 @@ footer{
                 align-items: center;
                 p{background-color: transparent; font-size: 1.1rem;}
             }
-            .fbrc{
+            .footer-socials{
                 width: 20%;
                 height: 100%;
                 display: flex;
