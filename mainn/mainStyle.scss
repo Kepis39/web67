@@ -6,7 +6,7 @@
     background-color: #141414;
     font-family: 'Urbanist', sans-serif;
 }
-header, .s1, .s2, .s3, .s4, .s5, footer{
+header, .hero, .featured-properties, .testimonials, .faq, .cta, footer{
     width: 100vw;
     display: flex;
     justify-content: center;
@@ -20,14 +20,14 @@ button, nav button{
     border: #262626 1px solid;
     border-radius: 10px;
 }
-.s1 .purpleButton, .purpleButton{
+.hero .btn-primary, .btn-primary{
     background-color: #703BF7;
     color: white;
     font-size: 1.2rem;
     border: #703BF7 1px solid;
     border-radius: 10px;
 }
-header, nav, .logo, .knopki{background-color: #1A1A1A;}
+header, nav, .brand, .nav-links{background-color: #1A1A1A;}
 header{
     height: 8vh;
     nav{
@@ -37,7 +37,7 @@ header{
         justify-content: space-between;
         align-items: center;
         a{text-decoration: none;}
-            .logo{
+            .brand{
                 display: flex;
                 align-items: center;
                 width: 9%;
@@ -48,7 +48,7 @@ header{
                         font-size: 1.9rem;
                     }
             }
-            .knopki{
+            .nav-links{
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
@@ -69,17 +69,17 @@ header{
             }
     }
 }
-.s1{
+.hero{
     height: 100vh;
     flex-direction: column;
     justify-content: space-between;
-    .verh{
+    .hero-main{
         height: 74%;
         width: 100%;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        .levoVerh{
+        .hero-content{
             width: 55%;
             height: 100%;
             display: flex;
@@ -87,13 +87,13 @@ header{
             padding-right: 5%;
             padding-bottom: 5%;
             align-items: end;
-            .golf{
+            .hero-inner{
                 width: 82%;
                 height: 70%;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
-                .s1text{
+                .hero-text{
                     height: 40%;
                     display: flex;
                     flex-direction: column;
@@ -104,7 +104,7 @@ header{
                     }
                     p{font-size: 1.2rem;}
                 }
-                .s1buttons{
+                .hero-buttons{
                     width: 45%;
                     height: 12%;
                     display: flex;
@@ -114,18 +114,18 @@ header{
                         width: 40%;
                         height: 100%;
                     }
-                    .purpleButton{
+                    .btn-primary{
                         width: 50%;
                         height: 100%;
                     }
                 }
-                .kamen{
+                .hero-stats{
                     width: 100%;
                     height: 25%;
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
-                    .stol{
+                    .stat-item{
                         width: 31%;
                         height: 90%;
                         background-color: #1A1A1A;
@@ -147,16 +147,16 @@ header{
                 }
             }
         }
-        .pravoVerh{
+        .hero-visual{
             width: 45%;
             height: 100%;
             position: relative;
             display: flex;
-            .asd{
+            .hero-image-main{
                 height: 100%;
                 width: 100%;
             }
-            .pupupu{
+            .hero-image-overlay{
                 position: absolute;
                 background-color: transparent;
                 align-self: center;
@@ -165,20 +165,20 @@ header{
             }
         }
     }
-    .niz{
+    .hero-features{
         height: 26%;
         width: 100%;
         background-color: #1A1A1A;
         display: flex;
         justify-content: center;
         align-items: center;
-        .nizContainer{
+        .features-inner{
             width: 100%;
             height: 90%;
             display: flex;
             align-items: center;
             justify-content: space-evenly;
-            .option{
+            .feature-card{
                 border: #262626 1px solid;
                 width: 23%;
                 height: 85%;
@@ -192,7 +192,7 @@ header{
                 gap: 5%;
                 img{background-color: #1A1A1A;}
                 p{background-color: #1A1A1A; font-size: 1.2rem;}
-                .verhhh{
+                .arrow-icon{
                     margin: 10px;
                     margin-bottom: 40%;
                     position: absolute;
@@ -205,11 +205,11 @@ header{
         }
     }
 }
-.wow{
+.badge-icon{
     width: 4.5%;
     height: auto;
     }
-.textic{
+.section-header{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -230,13 +230,13 @@ header{
         h2{font-size: 3rem; font-weight: 500;}
         p{font-size: 1.2rem; color: #999999; width: 75%;}
     }
-.underCards{
+.pagination{
         width: 100%;
         height: 10%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        .tap{
+        .pagination-controls{
             width: 100%;
             height: 70%;
             display: flex;
@@ -260,27 +260,27 @@ header{
         }    
     }
         
-.s2{
+.featured-properties{
     height: 120vh;
-    .s2container{
+    .featured-container{
         width: 85%;
         height: 80%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        .pipu{
+        .section-wrapper{
             display: flex;
             flex-direction: column;
             justify-content: space-between;
             width: 100%;
             height: 75%;
-            .cards{
+            .properties-grid{
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
                 width: 100%;
                 height: 85%;
-                .card{
+                .property-card{
                     height: 100%;
                     width: 32%;
                     border:#262626 1px solid;
@@ -288,17 +288,17 @@ header{
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    .cardCont{
+                    .property-card-inner{
                         width: 80%;
                         height: 90%;
                         display: flex;
                         flex-direction: column;
                         justify-content: space-between;
-                        .mainimg{
+                        .property-image{
                             width: 100%;
                             height: auto;
                         }
-                        .containerCont{
+                        .property-details{
                             width: 100%;
                             height: 40%;
                             display: flex;
@@ -306,7 +306,7 @@ header{
                             justify-content: space-between;
                             h3{font-weight: 500;font-size: 1.5rem;}
                             p{font-size: 1.2rem; color: #999999;}
-                            .houseOpt{
+                            .property-features{
                                 width: 100%;
                                 height: 20%;
                                 display: flex;
@@ -323,7 +323,7 @@ header{
                                     img{height: 45%; width: auto;}
                                 }
                             }
-                            .price{
+                            .property-price{
                                 width: 100%;
                                 height: 30%;
                                 display: flex;
@@ -342,35 +342,35 @@ header{
         }
     }
 }
-.s3{
+.testimonials{
     width: 100vw;
     height: 90vh;
-    .s3container{
+    .testimonials-container{
         width: 85%;
         height: 85%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        .textic{
+        .section-header{
             height: 15%;
             button{
                 height: 100%;
             }
         }
     }
-    .pipu{
+    .section-wrapper{
         width: 100%;
         height: 70%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        .reviews{
+        .reviews-grid{
             display: flex;
             justify-content: space-between;
             align-items: center;
             width: 100%;
             height: 80%;
-            .review{
+            .review-card{
                 height: 100%;
                 width: 32%;
                 border:#262626 1px solid;
@@ -378,7 +378,7 @@ header{
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                .reviewContainer{
+                .review-card-inner{
                     width: 80%;
                     height: 80%;
                     display: flex;
@@ -388,7 +388,7 @@ header{
                         width: 60%;
                         height: auto;
                     }
-                    .desc{
+                    .review-content{
                         height: 45%;
                         display: flex;
                         flex-direction: column;
@@ -402,7 +402,7 @@ header{
                             line-height: 1.5;
                         }
                     }
-                    .person{
+                    .review-author{
                         height: 20%;
                         display: flex;
                         gap: 5%;
@@ -415,39 +415,39 @@ header{
                 }
             }
         }
-        .underCards{
+        .pagination{
             height: 14%;
         }
     }
 }
-.s4{
+.faq{
     width: 100vw;
     height: 90vh;
-    .s4container{
+    .faq-container{
         width: 85%;
         height: 80%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        .textic{
+        .section-header{
             height: 15%;
             button{
                 height: 100%;
             }
         }
-        .pipu{
+        .section-wrapper{
             width: 100%;
             height: 60%;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            .questions{
+            .faq-grid{
                 width: 100%;
                 height: 80%;
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
-                .que{
+                .faq-card{
                     height: 85%;
                     width: 32%;
                     border:#262626 1px solid;
@@ -456,7 +456,7 @@ header{
                     justify-content: center;
                     align-items: center;
                 }
-                .queContainer{
+                .faq-card-inner{
                     width: 80%;
                     height: 70%;
                     display: flex;
@@ -472,18 +472,18 @@ header{
                 }
             }
         }
-        .underCards{
+        .pagination{
             height: 16%;
         }
     }
 }
-.s5{
+.cta{
     height: 40vh;
     background-image: url(/kartinki/main1/BacgraundS5.png);
     background-repeat: no-repeat;
     background-size: 100% 80%;
     background-position: bottom;
-    .s5container{
+    .cta-container{
         width: 80%;
         height: 60%;
         display: flex;
@@ -510,31 +510,31 @@ footer{
     height: 50vh;
     display: flex;
     flex-direction: column;
-    .ftop{
+    .footer-top{
         width: 100%;
         height: 80%;
         display: flex;
         justify-content: center;
         align-items: center;
-        .ftopCont{
+        .footer-top-inner{
             width: 80%;
             height: 65%;
             display: flex;
             justify-content: space-between;
-            .ftrc{
+            .footer-brand{
                 width: 30%;
                 height: 55%;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
-                .flogo{
+                .footer-logo{
                     width:36%;
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
                     h3{font-size: 2rem; font-weight: 500;}
                 }
-                .inputDiv{
+                .newsletter{
                     width: 100%;
                     height: 40%;
                     border: #262626 1px solid;
@@ -552,7 +552,7 @@ footer{
                     }
                 }
             }
-            .ftlc{
+            .footer-links{
                 width: 60%;
                 height: 100%;
                 display: flex;
@@ -570,21 +570,21 @@ footer{
             }
         }
     }
-    .fbot{
+    .footer-bottom{
         width: 100%;
         height: 20%;
         background-color: #1A1A1A;
         display: flex;
         justify-content: center;
         align-items: center;
-        .fbotCont{
+        .footer-bottom-inner{
             width: 80%;
             height: 100%;
             background-color: transparent;
             display: flex;
             align-items: center;
             justify-content: space-between;
-            .fblc{
+            .footer-copyright{
                 width: 30%;
                 height: 100%;
                 background-color: transparent;
@@ -593,7 +593,7 @@ footer{
                 align-items: center;
                 p{background-color: transparent; font-size: 1.1rem;}
             }
-            .fbrc{
+            .footer-socials{
                 width: 20%;
                 height: 100%;
                 display: flex;
