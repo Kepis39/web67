@@ -10,7 +10,7 @@ body {
   background-color: #141414;
 }
 
-header, .s1, .s2, .s3, .s4, .s5, footer {
+header, .hero, .services-section, .investment-services, .s4, .cta, footer {
   width: 100vw;
   display: flex;
   justify-content: center;
@@ -39,7 +39,7 @@ button, nav button {
   border-radius: 10px;
 }
 
-.s1 .purpleButton, .purpleButton {
+.hero .btn-primary, .btn-primary {
   background-color: #703BF7;
   color: white;
   font-size: 1.2rem;
@@ -47,7 +47,7 @@ button, nav button {
   border-radius: 10px;
 }
 
-header, nav, .logo, .knopki {
+header, nav, .brand, .nav-links {
   background-color: #1A1A1A;
 }
 
@@ -64,29 +64,29 @@ header nav {
 header nav a {
   text-decoration: none;
 }
-header nav .logo {
+header nav .brand {
   display: flex;
   align-items: center;
   width: 9%;
   height: 100%;
   gap: 10px;
 }
-header nav .logo h3 {
+header nav .brand h3 {
   color: white;
   font-size: 1.9rem;
 }
-header nav .knopki {
+header nav .nav-links {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 30%;
   height: 100%;
 }
-header nav .knopki button {
+header nav .nav-links button {
   width: 22%;
   border: none;
 }
-header nav .knopki button:hover {
+header nav .nav-links button:hover {
   border: #262626 1px solid;
   border-radius: 5px;
 }
@@ -95,41 +95,41 @@ header nav button {
   width: 10%;
 }
 
-.wow {
+.badge-icon {
   width: 4.5%;
   height: auto;
 }
 
-.textic {
+.section-header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   width: 100%;
   height: 13%;
 }
-.textic div {
+.section-header div {
   width: 100%;
   height: 70%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.textic div button {
+.section-header div button {
   width: 13%;
   height: 90%;
   background-color: #1A1A1A;
 }
-.textic h2 {
+.section-header h2 {
   font-size: 3rem;
   font-weight: 500;
 }
-.textic p {
+.section-header p {
   font-size: 1.2rem;
   color: #999999;
   width: 75%;
 }
 
-.s1 {
+.hero {
   height: 60vh;
   background-color: #1A1A1A;
   position: relative;
@@ -138,7 +138,7 @@ header nav button {
   justify-content: space-between;
   align-items: center;
 }
-.s1 .s1container {
+.hero .hero-container {
   margin-top: 7%;
   width: 80%;
   height: 20%;
@@ -146,15 +146,15 @@ header nav button {
   flex-direction: column;
   justify-content: space-between;
 }
-.s1 .s1container h2 {
+.hero .hero-container h2 {
   font-weight: 500;
   font-size: 3rem;
 }
-.s1 .s1container p {
+.hero .hero-container p {
   font-size: 1.12rem;
   width: 87%;
 }
-.s1 .niz {
+.hero .hero-features {
   height: 42%;
   width: 100%;
   background-color: #141414;
@@ -165,14 +165,14 @@ header nav button {
   justify-content: center;
   align-items: center;
 }
-.s1 .niz .nizContainer {
+.hero .hero-features .features-inner {
   width: 100%;
   height: 90%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
-.s1 .niz .nizContainer .option {
+.hero .hero-features .features-inner .feature-card {
   border: #262626 1px solid;
   width: 23%;
   height: 85%;
@@ -185,14 +185,14 @@ header nav button {
   flex-direction: column;
   gap: 5%;
 }
-.s1 .niz .nizContainer .option img {
+.hero .hero-features .features-inner .feature-card img {
   background-color: #1A1A1A;
 }
-.s1 .niz .nizContainer .option p {
+.hero .hero-features .features-inner .feature-card p {
   background-color: #1A1A1A;
   font-size: 1.2rem;
 }
-.s1 .niz .nizContainer .option .verhhh {
+.hero .hero-features .features-inner .feature-card .arrow-icon {
   margin: 10px;
   margin-bottom: 33%;
   position: absolute;
@@ -200,12 +200,12 @@ header nav button {
   width: 8%;
   height: auto;
 }
-.s1 .niz .nizContainer .option img {
+.hero .hero-features .features-inner .feature-card img {
   width: 20%;
   height: auto;
 }
 
-.fanta {
+.service-card {
   width: 32%;
   height: 100%;
   border: #262626 1px solid;
@@ -214,68 +214,68 @@ header nav button {
   justify-content: center;
   align-items: center;
 }
-.fanta .fantaCont {
+.service-card .service-card-inner {
   width: 80%;
   height: 90%;
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
 }
-.fanta .fantaCont div {
+.service-card .service-card-inner div {
   display: flex;
   align-items: center;
   gap: 5%;
 }
 
-.s2 {
+.services-section {
   height: 95vh;
 }
-.s2 .s2container {
+.services-section .services-container {
   width: 85%;
   height: 80%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.s2 .s2container .textic {
+.services-section .services-container .section-header {
   height: 20%;
 }
-.s2 .s2container .textic p {
+.services-section .services-container .section-header p {
   width: 85%;
 }
-.s2 .s2container .s2midCont {
+.services-section .services-container .services-content {
   width: 100%;
   height: 70%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.s2 .s2container .s2midCont p {
+.services-section .services-container .services-content p {
   font-size: 1.2rem;
   line-height: 1.5;
 }
-.s2 .s2container .s2midCont .tverh, .s2 .s2container .s2midCont .tverh2 {
+.services-section .services-container .services-content .services-top, .services-section .services-container .services-content .services-top-2 {
   width: 100%;
   height: 48%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.s2 .s2container .s2midCont .tniz, .s2 .s2container .s2midCont .tniz2 {
+.services-section .services-container .services-content .services-bottom, .services-section .services-container .services-content .services-bottom-2 {
   width: 32%;
   height: 100%;
 }
-.s2 .s2container .s2midCont .tniz .fanta, .s2 .s2container .s2midCont .tniz2 .fanta {
+.services-section .services-container .services-content .services-bottom .service-card, .services-section .services-container .services-content .services-bottom-2 .service-card {
   width: 100%;
 }
-.s2 .s2container .s2midCont .vibe {
+.services-section .services-container .services-content .services-banner {
   width: 100%;
   height: 48%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.s2 .s2container .s2midCont .vibe .vibeCont {
+.services-section .services-container .services-content .services-banner .banner-inner {
   width: 65%;
   height: 100%;
   background-image: url(/kartinki/service/Card.png);
@@ -286,49 +286,49 @@ header nav button {
   justify-content: space-evenly;
   padding-left: 3%;
 }
-.s2 .s2container .s2midCont .vibe .vibeCont div {
+.services-section .services-container .services-content .services-banner .banner-inner div {
   width: 95%;
   height: 25%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.s2 .s2container .s2midCont .vibe .vibeCont div h2 {
+.services-section .services-container .services-content .services-banner .banner-inner div h2 {
   font-size: 2rem;
 }
-.s2 .s2container .s2midCont .vibe .vibeCont div button {
+.services-section .services-container .services-content .services-banner .banner-inner div button {
   width: 17%;
   height: 100%;
   background-color: #141414;
 }
 
-.s3 {
+.investment-services {
   height: 95vh;
 }
-.s3 .s3container {
+.investment-services .investment-container {
   width: 85%;
   height: 70%;
   display: flex;
   justify-content: space-between;
 }
-.s3 .s3container .s3top {
+.investment-services .investment-container .investment-left {
   width: 32%;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.s3 .s3container .s3top .textic {
+.investment-services .investment-container .investment-left .section-header {
   width: 100%;
   height: 33%;
 }
-.s3 .s3container .s3top .textic p {
+.investment-services .investment-container .investment-left .section-header p {
   width: 100%;
 }
-.s3 .s3container .s3top .textic img {
+.investment-services .investment-container .investment-left .section-header img {
   width: 15%;
 }
-.s3 .s3container .s3top .ogo {
+.investment-services .investment-container .investment-left .investment-cta {
   width: 100%;
   height: 50%;
   display: flex;
@@ -340,19 +340,19 @@ header nav button {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.s3 .s3container .s3top .ogo h3 {
+.investment-services .investment-container .investment-left .investment-cta h3 {
   font-size: 1.5rem;
 }
-.s3 .s3container .s3top .ogo p {
+.investment-services .investment-container .investment-left .investment-cta p {
   font-size: 1.2rem;
   color: white;
   line-height: 1.5;
 }
-.s3 .s3container .s3top .ogo button {
+.investment-services .investment-container .investment-left .investment-cta button {
   height: 20%;
   background-color: #141414;
 }
-.s3 .s3container .s3net {
+.investment-services .investment-container .investment-right {
   width: 65%;
   height: 100%;
   display: flex;
@@ -362,28 +362,28 @@ header nav button {
   border: #1A1A1A 15px solid;
   border-radius: 15px;
 }
-.s3 .s3container .s3net .pepsi {
+.investment-services .investment-container .investment-right .investment-row {
   display: flex;
   justify-content: space-between;
   height: 48%;
 }
-.s3 .s3container .s3net .pepsi .fanta p {
+.investment-services .investment-container .investment-right .investment-row .service-card p {
   font-size: 1.2rem;
   line-height: 1.5;
 }
-.s3 .s3container .s3net .pepsi .fanta {
+.investment-services .investment-container .investment-right .investment-row .service-card {
   width: 48%;
   background-color: #141414;
 }
 
-.s5 {
+.cta {
   height: 40vh;
   background-image: url(/kartinki/main1/BacgraundS5.png);
   background-repeat: no-repeat;
   background-size: 100% 80%;
   background-position: bottom;
 }
-.s5 .s5container {
+.cta .cta-container {
   width: 80%;
   height: 60%;
   display: flex;
@@ -391,7 +391,7 @@ header nav button {
   justify-content: space-between;
   background-color: transparent;
 }
-.s5 .s5container div {
+.cta .cta-container div {
   height: 90%;
   display: flex;
   flex-direction: column;
@@ -399,14 +399,14 @@ header nav button {
   width: 70%;
   gap: 10%;
 }
-.s5 .s5container div h2 {
+.cta .cta-container div h2 {
   font-size: 2.7rem;
   font-weight: 500;
 }
-.s5 .s5container div p {
+.cta .cta-container div p {
   font-size: 1.05rem;
 }
-.s5 .s5container button {
+.cta .cta-container button {
   width: 13%;
   height: 25%;
 }
@@ -416,37 +416,37 @@ footer {
   display: flex;
   flex-direction: column;
 }
-footer .ftop {
+footer .footer-top {
   width: 100%;
   height: 80%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-footer .ftop .ftopCont {
+footer .footer-top .footer-top-inner {
   width: 80%;
   height: 65%;
   display: flex;
   justify-content: space-between;
 }
-footer .ftop .ftopCont .ftrc {
+footer .footer-top .footer-top-inner .footer-brand {
   width: 30%;
   height: 55%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-footer .ftop .ftopCont .ftrc .flogo {
+footer .footer-top .footer-top-inner .footer-brand .footer-logo {
   width: 36%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-footer .ftop .ftopCont .ftrc .flogo h3 {
+footer .footer-top .footer-top-inner .footer-brand .footer-logo h3 {
   font-size: 2rem;
   font-weight: 500;
 }
-footer .ftop .ftopCont .ftrc .inputDiv {
+footer .footer-top .footer-top-inner .footer-brand .newsletter {
   width: 100%;
   height: 40%;
   border: #262626 1px solid;
@@ -456,7 +456,7 @@ footer .ftop .ftopCont .ftrc .inputDiv {
   align-items: center;
   padding: 0 5% 0 5%;
 }
-footer .ftop .ftopCont .ftrc .inputDiv input {
+footer .footer-top .footer-top-inner .footer-brand .newsletter input {
   color: #999999;
   font-size: 1.2rem;
   width: 80%;
@@ -464,23 +464,23 @@ footer .ftop .ftopCont .ftrc .inputDiv input {
   border: none;
   background-color: #141414;
 }
-footer .ftop .ftopCont .ftlc {
+footer .footer-top .footer-top-inner .footer-links {
   width: 60%;
   height: 100%;
   display: flex;
   justify-content: space-between;
 }
-footer .ftop .ftopCont .ftlc ul {
+footer .footer-top .footer-top-inner .footer-links ul {
   list-style: none;
   line-height: 2.5;
 }
-footer .ftop .ftopCont .ftlc ul li {
+footer .footer-top .footer-top-inner .footer-links ul li {
   font-size: 1.1rem;
 }
-footer .ftop .ftopCont .ftlc ul li a {
+footer .footer-top .footer-top-inner .footer-links ul li a {
   text-decoration: none;
 }
-footer .fbot {
+footer .footer-bottom {
   width: 100%;
   height: 20%;
   background-color: #1A1A1A;
@@ -488,7 +488,7 @@ footer .fbot {
   justify-content: center;
   align-items: center;
 }
-footer .fbot .fbotCont {
+footer .footer-bottom .footer-bottom-inner {
   width: 80%;
   height: 100%;
   background-color: transparent;
@@ -496,7 +496,7 @@ footer .fbot .fbotCont {
   align-items: center;
   justify-content: space-between;
 }
-footer .fbot .fbotCont .fblc {
+footer .footer-bottom .footer-bottom-inner .footer-copyright {
   width: 30%;
   height: 100%;
   background-color: transparent;
@@ -504,11 +504,11 @@ footer .fbot .fbotCont .fblc {
   justify-content: space-between;
   align-items: center;
 }
-footer .fbot .fbotCont .fblc p {
+footer .footer-bottom .footer-bottom-inner .footer-copyright p {
   background-color: transparent;
   font-size: 1.1rem;
 }
-footer .fbot .fbotCont .fbrc {
+footer .footer-bottom .footer-bottom-inner .footer-socials {
   width: 20%;
   height: 100%;
   display: flex;
@@ -516,7 +516,7 @@ footer .fbot .fbotCont .fbrc {
   justify-content: space-between;
   background-color: #1A1A1A;
 }
-footer .fbot .fbotCont .fbrc img {
+footer .footer-bottom .footer-bottom-inner .footer-socials img {
   width: 20%;
   height: auto;
   border-radius: 30px;
