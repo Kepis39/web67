@@ -5,15 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="properties.css">
+<base target="_blank">
 </head>
 <body>
     <header>
         <nav>
-            <div class="logo">
+            <div class="brand">
                 <img src="/kartinki/main1/Symbol.png" alt="">
                 <h3>Estaten</h3>
             </div>
-            <div class="knopki">
+            <div class="nav-links">
                 <button><a href="/mainn/mainIndex.html">Home</a></button>
                 <button><a href="/AboutUs/aboutUs.html">About Us</a></button>
                 <button><a href="/Details/details.html">Properties</a></button>
@@ -22,52 +23,52 @@
             <button><a href="/contact/contact.html">Contact Us</a></button>
         </nav>
     </header>
-    <section class="s1">
-        <div class="s1container">
+    <section class="hero">
+        <div class="hero-container">
             <h2>Find Your Dream Property</h2>
             <p>Welcome to Estatein, where your dream property awaits in every corner of our beautiful world. Explore our curated selection of properties, each offering a unique story and a chance to redefine your life. With categories to suit every dreamer, your journey </p>
         </div>
     </section>
-    <div class="find">
-        <div class="search">
+    <div class="search-bar">
+        <div class="search-input-wrapper">
             <input type="text" value="Search For A Property">
-            <button class="purpleButton"><img src="/kartinki/properties/find.png" alt="">Find Property</button>
+            <button class="btn-primary"><img src="/kartinki/properties/find.png" alt="">Find Property</button>
         </div>
-        <div class="fopt">
-            <div class="infOut">
-                <div class="inf">
+        <div class="filter-options">
+            <div class="filter-item">
+                <div class="filter-label">
                     <img src="/kartinki/properties/location.png" alt="">
                     <div style="width: 1px; height: 90%; background-color: #262626;"></div>
                     <p>Location</p>
                 </div>
                 <button><img src="/kartinki/properties/Button.png" alt=""></button>
             </div>
-            <div class="infOut">
-                <div class="inf">
+            <div class="filter-item">
+                <div class="filter-label">
                     <img src="/kartinki/properties/dom.png" alt="">
                     <div style="width: 1px; height: 90%; background-color: #262626;"></div>
                     <p>Property Type</p>
                 </div>
                 <button><img src="/kartinki/properties/Button.png" alt=""></button>
             </div>
-            <div class="infOut">
-                <div class="inf">
+            <div class="filter-item">
+                <div class="filter-label">
                     <img src="/kartinki/properties/mon.png" alt="">
                     <div style="width: 1px; height: 90%; background-color: #262626;"></div>
                     <p>Pricing Range</p>
                 </div>
                 <button><img src="/kartinki/properties/Button.png" alt=""></button>
             </div>
-            <div class="infOut">
-                <div class="inf">
+            <div class="filter-item">
+                <div class="filter-label">
                     <img src="/kartinki/properties/box.png" alt="">
                     <div style="width: 1px; height: 90%; background-color: #262626;"></div>
                     <p>Property Size</p>
                 </div>
                 <button><img src="/kartinki/properties/Button.png" alt=""></button>
             </div>
-            <div class="infOut">
-                <div class="inf">
+            <div class="filter-item">
+                <div class="filter-label">
                     <img src="/kartinki/properties/data.png" alt="">
                     <div style="width: 1px; height: 90%; background-color: #262626;"></div>
                     <p>Build Year</p>
@@ -76,18 +77,18 @@
             </div>
         </div>
     </div>
-    <section class="s2">
-        <div class="s2container">
-            <div class="textic">
-                <img src="/kartinki/main1/wow.png" alt="" class="wow">
+    <section class="properties-list">
+        <div class="properties-container">
+            <div class="section-header">
+                <img src="/kartinki/main1/wow.png" alt="" class="badge-icon">
                 <h2>Discover a World of Possibilities</h2>
                 <p>Our portfolio of properties is as diverse as your dreams. Explore the following categories to find the perfect property that resonates with your vision of home</p>
             </div>
-            <div class="pipu">
-                <div class="cards" id="cards"></div>
-                <div class="underCards">
-                    <div class="line" style="background-color: #262626; width: 100%; height: 1px;"></div>
-                    <div class="tap">
+            <div class="properties-wrapper">
+                <div class="properties-grid" id="properties-grid"></div>
+                <div class="pagination">
+                    <div class="pagination-line" style="background-color: #262626; width: 100%; height: 1px;"></div>
+                    <div class="pagination-controls">
                         <p>01 <span style="color: #999999;">of 60</span></p>
                         <div>
                             <button><img src="/kartinki/main1/strelkaVlevo.png" alt=""></button>
@@ -98,18 +99,18 @@
             </div>
         </div>
     </section>
-    <section class="s3">
-        <div class="s3container">
-            <div class="textic">
-                <img src="/kartinki/main1/wow.png" alt="" class="wow">
+    <section class="inquiry-form">
+        <div class="inquiry-container">
+            <div class="section-header">
+                <img src="/kartinki/main1/wow.png" alt="" class="badge-icon">
                 <h2>Let's Make it Happen</h2>
                 <p>Ready to take the first step toward your dream property? Fill out the form below, and our real estate wizards will work their magic to find your perfect match. Don't wait; let's embark on this exciting journey together.</p>
             </div>
-            <div class="dsa">
-                <div class="dsaContainer">
-                    <div class="dsaTop">
-                        <div class="rd">
-                            <div class="inp">
+            <div class="form-card">
+                <div class="form-card-inner">
+                    <div class="form-fields">
+                        <div class="form-left">
+                            <div class="form-row">
                                 <div>
                                     <p>First Name</p>
                                     <input type="text" value="Enter First Name">
@@ -119,32 +120,32 @@
                                     <input type="text" value="Enter Last Name">
                                 </div>
                             </div>
-                            <div class="inp">
+                            <div class="form-row">
                                 <div>
                                     <p>Preferred Location</p>
-                                    <div class="val">
+                                    <div class="input-with-icon">
                                         <input type="text" value="Select Location">
                                         <img src="/kartinki/properties/v.png" alt="">
                                     </div>
                                 </div>
                                 <div>
                                     <p>Property Type</p>
-                                    <div class="val">
+                                    <div class="input-with-icon">
                                         <input type="text" value="Select Property Type">
                                         <img src="/kartinki/properties/v.png" alt="">
                                     </div>
                                 </div>
                             </div>
-                            <div class="longinp">
+                            <div class="form-field-full">
                                 <p>Budget</p>
-                                <div class="val">
+                                <div class="input-with-icon">
                                     <input type="text" value="Select Budget">
                                     <img src="/kartinki/properties/v.png" alt="">
                                 </div>
                             </div>
                         </div>
-                        <div class="ld">
-                            <div class="inp">
+                        <div class="form-right">
+                            <div class="form-row">
                                 <div>
                                     <p>Email</p>
                                     <input type="text" value="Enter your Email">
@@ -154,79 +155,79 @@
                                     <input type="text" value="Enter your Phone">
                                 </div>
                             </div>
-                            <div class="inp">
+                            <div class="form-row">
                                 <div>
                                     <p>No. of Bathrooms</p>
-                                    <div class="val">
+                                    <div class="input-with-icon">
                                         <input type="text" value="Select No. of Bathrooms">
                                         <img src="/kartinki/properties/v.png" alt="">
                                     </div>
                                 </div>
                                 <div>
                                     <p>No. of Bedrooms</p>
-                                    <div class="val">
+                                    <div class="input-with-icon">
                                         <input type="text" value="Select No. of Bedrooms">
                                         <img src="/kartinki/properties/v.png" alt="">
                                     </div>
                                 </div>
                             </div>
-                            <div class="minp">
-                                <div class="qwe">
+                            <div class="contact-method">
+                                <div class="contact-option">
                                     <p>Preferred Contact Method</p>
                                     <div>
                                         <img src="/kartinki/properties/number.png" alt="">
                                         <input type="text" value="Enter Your Number">
-                                        <input type="radio" style=" border-radius: 50%;" class="krug">
+                                        <input type="radio" style=" border-radius: 50%;" class="radio-btn">
                                     </div>
                                 </div>
-                                <div class="qwe">
-                                    <div class="vniz">
+                                <div class="contact-option">
+                                    <div class="contact-option-bottom">
                                         <img src="/kartinki/properties/mail (2).png" alt="">
                                         <input type="text" value="Enter Your Email">
-                                        <input type="radio" style=" border-radius: 50%;" class="krug">
+                                        <input type="radio" style=" border-radius: 50%;" class="radio-btn">
                                     </div>  
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="dsaMid">
+                    <div class="form-message-area">
                         <p>Message</p>
                         <input type="text" value="Enter your message here.">
                     </div>
-                    <div class="dsaNiz">
+                    <div class="form-footer">
                         <div>
                             <input type="checkbox">
                             <p>I agree with <a href="">Terms of Use</a> and <a href="">Privacy Policy</a></p>
                         </div>
-                        <button class="purpleButton">Send Your Message</button>
+                        <button class="btn-primary">Send Your Message</button>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="s4">
-        <div class="s4container">
+    <section class="cta">
+        <div class="cta-container">
             <div>
                 <h2>Start Your Real Estate Journey Today</h2>
                 <p>Your dream property is just a click away. Whether you're looking for a new home, a strategic investment, or expert real estate advice, Estatein is here to assist you every step of the way. Take the first step towards your real estate goals and explore our available properties or get in touch with our team for personalized assistance.</p>
             </div>
-            <button class="purpleButton">Explore Properties</button>
+            <button class="btn-primary">Explore Properties</button>
         </div>
     </section>
     <footer>
-        <div class="ftop">
-            <div class="ftopCont">
-                <div class="ftrc">
-                    <div class="flogo">
+        <div class="footer-top">
+            <div class="footer-top-inner">
+                <div class="footer-brand">
+                    <div class="footer-logo">
                         <img src="/kartinki/main1/Symbol.png" alt="">
                         <h3>Estaten</h3>
                     </div>
-                    <div class="inputDiv">
+                    <div class="newsletter">
                         <input type="text" value="Enter your Email">
                         <img src="/kartinki/main1/Tg.png" alt="">
                     </div>
                 </div>
-                <div class="ftlc">
+                <div class="footer-links">
                     <ul>
                         <li><p style="color: #999999;">Home</p></li>
                         <li><a href="">Hero Sections</a></li>
@@ -264,13 +265,13 @@
                 </div>
             </div>
         </div>
-        <div class="fbot">
-            <div class="fbotCont">
-                <div class="fblc">
+        <div class="footer-bottom">
+            <div class="footer-bottom-inner">
+                <div class="footer-copyright">
                     <p>@2023 Estatein. All Rights Reserved.</p>
                     <p>Terms & Conditions</p>
                 </div>
-                <div class="fbrc">
+                <div class="footer-socials">
                     <img src="/kartinki/main1/ButtonF.png" alt="">
                     <img src="/kartinki/main1/ButtonIn.png" alt="">
                     <img src="/kartinki/main1/ButtonX.png" alt="">
