@@ -4,25 +4,25 @@ const houses = [
     {img:"/kartinki/main1/VipHouse.png", name:"Rustic Retreat Cottage", description:"An elegant 3-bedroom, 2.5-bathroom townhouse in a gated community...", bed:"3-Bedroom", shower:"3-Bathroom"}
 ];
 
-const cardDiv = document.getElementById('cards');
+const cardDiv = document.getElementById('properties-grid');
 cardDiv.innerHTML = houses.map(
-    i => `<div class="card">
-            <div class="cardCont">
-                <img src="${i.img}" alt="" class="mainimg">
-                <div class="containerCont">
+    i => `<div class="property-card">
+            <div class="property-card-inner">
+                <img src="${i.img}" alt="" class="property-image">
+                <div class="property-details">
                     <h3>${i.name}</h3>
                     <p>${i.description}<a href="">Read more</a></p>
-                    <div class="houseOpt">
+                    <div class="property-features">
                         <button><img src="/kartinki/main1/bed.png" alt="">${i.bed}</button>
                         <button><img src="/kartinki/main1/shower.png" alt="">${i.shower}</button>
                         <button><img src="/kartinki/main1/villa.png" alt="">Villa</button>
                     </div>
-                    <div class="price">
+                    <div class="property-price">
                         <div>
                             <p>Price</p>
                             <h3>$550.000</h3>
                         </div>
-                        <button class="purpleButton">View Property Details</button>
+                        <button class="btn-primary">View Property Details</button>
                     </div>
                 </div>
             </div>
