@@ -10,7 +10,7 @@ body {
   background-color: #141414;
 }
 
-header, .s1, .s2, .s3, .s4, .s5, footer {
+header, .property-details, .inquiry-form, .pricing, .faq, .cta, footer {
   width: 100vw;
   display: flex;
   justify-content: center;
@@ -41,7 +41,7 @@ button, nav button {
   border-radius: 10px;
 }
 
-.s1 .purpleButton, .purpleButton {
+.property-details .btn-primary, .btn-primary {
   background-color: #703BF7;
   color: white;
   font-size: 1.2rem;
@@ -49,64 +49,64 @@ button, nav button {
   border-radius: 10px;
 }
 
-.wow {
+.badge-icon {
   width: 4.5%;
   height: auto;
 }
 
-.textic {
+.section-header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   width: 100%;
   height: 13%;
 }
-.textic div {
+.section-header div {
   width: 100%;
   height: 70%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.textic div button {
+.section-header div button {
   width: 13%;
   height: 90%;
   background-color: #1A1A1A;
 }
-.textic h2 {
+.section-header h2 {
   font-size: 3rem;
   font-weight: 500;
 }
-.textic p {
+.section-header p {
   font-size: 1.2rem;
   color: #999999;
   width: 75%;
 }
 
-.underCards {
+.pagination {
   width: 100%;
   height: 10%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.underCards .tap {
+.pagination .pagination-controls {
   width: 100%;
   height: 70%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.underCards .tap p {
+.pagination .pagination-controls p {
   font-size: 1.3rem;
 }
-.underCards .tap div {
+.pagination .pagination-controls div {
   width: 8%;
   height: 100%;
   display: flex;
   justify-content: space-between;
 }
-.underCards .tap div button {
+.pagination .pagination-controls div button {
   width: 42%;
   height: 100%;
   display: flex;
@@ -115,7 +115,7 @@ button, nav button {
   border-radius: 30px;
 }
 
-header, nav, .logo, .knopki {
+header, nav, .brand, .nav-links {
   background-color: #1A1A1A;
 }
 
@@ -132,29 +132,29 @@ header nav {
 header nav a {
   text-decoration: none;
 }
-header nav .logo {
+header nav .brand {
   display: flex;
   align-items: center;
   width: 9%;
   height: 100%;
   gap: 10px;
 }
-header nav .logo h3 {
+header nav .brand h3 {
   color: white;
   font-size: 1.9rem;
 }
-header nav .knopki {
+header nav .nav-links {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 30%;
   height: 100%;
 }
-header nav .knopki button {
+header nav .nav-links button {
   width: 22%;
   border: none;
 }
-header nav .knopki button:hover {
+header nav .nav-links button:hover {
   border: #262626 1px solid;
   border-radius: 5px;
 }
@@ -163,10 +163,10 @@ header nav button {
   width: 10%;
 }
 
-.s1 {
+.property-details {
   height: 200vh;
 }
-.s1 .s1container {
+.property-details .property-container {
   width: 85%;
   height: 90%;
   display: flex;
@@ -174,24 +174,24 @@ header nav button {
   justify-content: space-between;
   align-items: center;
 }
-.s1 .s1container .s1top {
+.property-details .property-container .property-header {
   width: 100%;
   height: 5%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.s1 .s1container .s1top .s1topl {
+.property-details .property-container .property-header .property-title {
   width: 33%;
   height: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.s1 .s1container .s1top .s1topl h2 {
+.property-details .property-container .property-header .property-title h2 {
   font-size: 2rem;
 }
-.s1 .s1container .s1top .s1topl div {
+.property-details .property-container .property-header .property-title div {
   height: 60%;
   width: 37%;
   padding: 0 7px 0 7px;
@@ -201,28 +201,28 @@ header nav button {
   border: #262626 1px solid;
   border-radius: 15px;
 }
-.s1 .s1container .s1top .s1topl div img {
+.property-details .property-container .property-header .property-title div img {
   width: 15%;
   height: 47%;
 }
-.s1 .s1container .s1top .s1topl div p {
+.property-details .property-container .property-header .property-title div p {
   font-size: 1.2rem;
   color: white;
 }
-.s1 .s1container .s1top .s1topr {
+.property-details .property-container .property-header .property-price {
   width: 10%;
   height: 35%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.s1 .s1container .s1top .s1topr h3 {
+.property-details .property-container .property-header .property-price h3 {
   font-size: 1.6rem;
 }
-.s1 .s1container .s1top .s1topr p {
+.property-details .property-container .property-header .property-price p {
   font-size: 1.2rem;
 }
-.s1 .s1container .s1mid {
+.property-details .property-container .property-gallery {
   width: 100%;
   height: 52%;
   border: #262626 1px solid;
@@ -233,7 +233,7 @@ header nav button {
   align-items: center;
   justify-content: space-evenly;
 }
-.s1 .s1container .s1mid .pic {
+.property-details .property-container .property-gallery .gallery-thumbnails {
   width: 95%;
   height: 13%;
   border: #262626 1px solid;
@@ -243,21 +243,21 @@ header nav button {
   justify-content: space-evenly;
   align-items: center;
 }
-.s1 .s1container .s1mid .pic img {
+.property-details .property-container .property-gallery .gallery-thumbnails img {
   height: 80%;
   width: auto;
 }
-.s1 .s1container .s1mid .s1midbig {
+.property-details .property-container .property-gallery .gallery-main {
   width: 95%;
   height: 65%;
   display: flex;
   justify-content: space-between;
 }
-.s1 .s1container .s1mid .s1midbig img {
+.property-details .property-container .property-gallery .gallery-main img {
   height: 100%;
   width: 49%;
 }
-.s1 .s1container .s1mid .s1midniz {
+.property-details .property-container .property-gallery .gallery-controls {
   width: 20%;
   height: 7%;
   display: flex;
@@ -267,7 +267,7 @@ header nav button {
   border-radius: 40px;
   background-color: #141414;
 }
-.s1 .s1container .s1mid .s1midniz button {
+.property-details .property-container .property-gallery .gallery-controls button {
   width: 15%;
   height: 75%;
   border-radius: 50%;
@@ -275,20 +275,20 @@ header nav button {
   align-items: center;
   justify-content: center;
 }
-.s1 .s1container .s1niz {
+.property-details .property-container .property-info {
   width: 100%;
   height: 37%;
   display: flex;
   justify-content: space-between;
 }
-.s1 .s1container .s1niz h2 {
+.property-details .property-container .property-info h2 {
   font-size: 1.75rem;
 }
-.s1 .s1container .s1niz p {
+.property-details .property-container .property-info p {
   font-size: 1.4rem;
   line-height: 1.5;
 }
-.s1 .s1container .s1niz .s1nizl, .s1 .s1container .s1niz .s1nizr {
+.property-details .property-container .property-info .property-description, .property-details .property-container .property-info .property-features {
   width: 49%;
   border: #262626 1px solid;
   border-radius: 15px;
@@ -298,49 +298,49 @@ header nav button {
   justify-content: space-around;
   padding-left: 3%;
 }
-.s1 .s1container .s1niz .s1nizl {
+.property-details .property-container .property-info .property-description {
   height: 60%;
 }
-.s1 .s1container .s1niz .s1nizl .textinfo {
+.property-details .property-container .property-info .property-description .property-specs {
   width: 95%;
   height: 20%;
   display: flex;
   justify-content: space-between;
 }
-.s1 .s1container .s1niz .s1nizl .textinfo h2 {
+.property-details .property-container .property-info .property-description .property-specs h2 {
   font-size: 1.6rem;
 }
-.s1 .s1container .s1niz .s1nizl .textinfo .inf {
+.property-details .property-container .property-info .property-description .property-specs .spec-item {
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.s1 .s1container .s1niz .s1nizl .textinfo .inf div {
+.property-details .property-container .property-info .property-description .property-specs .spec-item div {
   height: 50%;
   width: 80%;
   display: flex;
   gap: 10%;
   align-items: center;
 }
-.s1 .s1container .s1niz .s1nizl .textinfo .inf div img {
+.property-details .property-container .property-info .property-description .property-specs .spec-item div img {
   width: auto;
   height: 50%;
 }
-.s1 .s1container .s1niz .s1nizl .text {
+.property-details .property-container .property-info .property-description .description-text {
   width: 100%;
   height: 45%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.s1 .s1container .s1niz .s1nizr .nebo {
+.property-details .property-container .property-info .property-features .features-list {
   height: 75%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.s1 .s1container .s1niz .s1nizr .nebo .rty {
+.property-details .property-container .property-info .property-features .features-list .feature-item {
   width: 100%;
   height: auto;
   min-height: 15%;
@@ -351,28 +351,28 @@ header nav button {
   justify-content: center;
   align-items: center;
 }
-.s1 .s1container .s1niz .s1nizr .nebo .rty div {
+.property-details .property-container .property-info .property-features .features-list .feature-item div {
   display: flex;
   width: 90%;
   height: 90%;
   gap: 5%;
   align-items: center;
 }
-.s1 .s1container .s1niz .s1nizr .nebo .rty div img {
+.property-details .property-container .property-info .property-features .features-list .feature-item div img {
   width: auto;
   height: 40%;
 }
 
-.s2 {
+.inquiry-form {
   height: 100vh;
 }
-.s2 .s2container {
+.inquiry-form .inquiry-container {
   width: 85%;
   height: 90%;
   display: flex;
   justify-content: space-between;
 }
-.s2 .s2container .s2lc {
+.inquiry-form .inquiry-container .inquiry-text {
   width: 30%;
   height: 34%;
   display: flex;
@@ -380,19 +380,19 @@ header nav button {
   justify-content: space-between;
   align-items: flex-start;
 }
-.s2 .s2container .s2lc h2 {
+.inquiry-form .inquiry-container .inquiry-text h2 {
   font-weight: 500;
   font-size: 3rem;
 }
-.s2 .s2container .s2lc p {
+.inquiry-form .inquiry-container .inquiry-text p {
   font-size: 1.3rem;
   line-height: 1.5;
 }
-.s2 .s2container .s2lc img {
+.inquiry-form .inquiry-container .inquiry-text img {
   width: 15%;
   height: auto;
 }
-.s2 .s2container .dsa {
+.inquiry-form .inquiry-container .form-card {
   border-radius: 15px;
   border: #262626 1px solid;
   align-self: center;
@@ -403,7 +403,7 @@ header nav button {
   justify-content: center;
   align-items: center;
 }
-.s2 .s2container .dsa .dsaContainer {
+.inquiry-form .inquiry-container .form-card .form-card-inner {
   width: 90%;
   height: 85%;
   background-color: #141414;
@@ -411,7 +411,7 @@ header nav button {
   flex-direction: column;
   justify-content: space-between;
 }
-.s2 .s2container .dsa .dsaContainer .dsaTop {
+.inquiry-form .inquiry-container .form-card .form-card-inner .form-fields {
   width: 100%;
   height: 50%;
   background-color: #141414;
@@ -419,7 +419,7 @@ header nav button {
   justify-content: space-between;
   align-items: center;
 }
-.s2 .s2container .dsa .dsaContainer .dsaTop .rd {
+.inquiry-form .inquiry-container .form-card .form-card-inner .form-fields .form-fields-group {
   width: 100%;
   background-color: #141414;
   height: 100%;
@@ -427,25 +427,25 @@ header nav button {
   flex-direction: column;
   justify-content: space-between;
 }
-.s2 .s2container .dsa .dsaContainer .dsaTop .rd .inp {
+.inquiry-form .inquiry-container .form-card .form-card-inner .form-fields .form-fields-group .form-row {
   background-color: #141414;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 25%;
 }
-.s2 .s2container .dsa .dsaContainer .dsaTop .rd .inp div {
+.inquiry-form .inquiry-container .form-card .form-card-inner .form-fields .form-fields-group .form-row div {
   width: 50%;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
-.s2 .s2container .dsa .dsaContainer .dsaTop .rd .inp div p {
+.inquiry-form .inquiry-container .form-card .form-card-inner .form-fields .form-fields-group .form-row div p {
   font-size: 1.3rem;
   color: white;
 }
-.s2 .s2container .dsa .dsaContainer .dsaTop .rd .inp div input {
+.inquiry-form .inquiry-container .form-card .form-card-inner .form-fields .form-fields-group .form-row div input {
   width: 95%;
   height: 60%;
   color: #999999;
@@ -455,7 +455,7 @@ header nav button {
   border: #262626 1px solid;
   padding-left: 10px;
 }
-.s2 .s2container .dsa .dsaContainer .dsaTop .longinp {
+.inquiry-form .inquiry-container .form-card .form-card-inner .form-fields .form-field-full {
   background-color: #141414;
   display: flex;
   flex-direction: column;
@@ -463,7 +463,7 @@ header nav button {
   height: 25%;
   width: 100%;
 }
-.s2 .s2container .dsa .dsaContainer .dsaTop .longinp div {
+.inquiry-form .inquiry-container .form-card .form-card-inner .form-fields .form-field-full div {
   height: 65%;
   width: 98%;
   display: flex;
@@ -473,11 +473,11 @@ header nav button {
   border-radius: 5px;
   border: #262626 1px solid;
 }
-.s2 .s2container .dsa .dsaContainer .dsaTop .longinp p {
+.inquiry-form .inquiry-container .form-card .form-card-inner .form-fields .form-field-full p {
   font-size: 1.3rem;
   color: white;
 }
-.s2 .s2container .dsa .dsaContainer .dsaTop .longinp input {
+.inquiry-form .inquiry-container .form-card .form-card-inner .form-fields .form-field-full input {
   width: 93%;
   height: 80%;
   color: #999999;
@@ -486,15 +486,15 @@ header nav button {
   border: none;
   padding-left: 10px;
 }
-.s2 .s2container .dsa .dsaContainer .dsaTop .longinp img {
+.inquiry-form .inquiry-container .form-card .form-card-inner .form-fields .form-field-full img {
   width: 3%;
   height: auto;
   background-color: transparent;
 }
-.s2 .s2container .dsa .dsaContainer div {
+.inquiry-form .inquiry-container .form-card .form-card-inner div {
   background-color: transparent;
 }
-.s2 .s2container .dsa .dsaContainer .dsaMid {
+.inquiry-form .inquiry-container .form-card .form-card-inner .form-message-area {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -502,11 +502,11 @@ header nav button {
   height: 30%;
   background-color: #141414;
 }
-.s2 .s2container .dsa .dsaContainer .dsaMid p {
+.inquiry-form .inquiry-container .form-card .form-card-inner .form-message-area p {
   font-size: 1.3rem;
   color: white;
 }
-.s2 .s2container .dsa .dsaContainer .dsaMid input {
+.inquiry-form .inquiry-container .form-card .form-card-inner .form-message-area input {
   background-color: #1A1A1A;
   border-radius: 5px;
   border: #262626 1px solid;
@@ -518,46 +518,46 @@ header nav button {
   vertical-align: top;
   padding: 8px;
 }
-.s2 .s2container .dsa .dsaContainer .dsaNiz {
+.inquiry-form .inquiry-container .form-card .form-card-inner .form-footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
   height: 10%;
 }
-.s2 .s2container .dsa .dsaContainer .dsaNiz div {
+.inquiry-form .inquiry-container .form-card .form-card-inner .form-footer div {
   width: 45%;
   height: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.s2 .s2container .dsa .dsaContainer .dsaNiz div input {
+.inquiry-form .inquiry-container .form-card .form-card-inner .form-footer div input {
   width: 20%;
   height: 25%;
 }
-.s2 .s2container .dsa .dsaContainer .dsaNiz button {
+.inquiry-form .inquiry-container .form-card .form-card-inner .form-footer button {
   width: 25%;
   height: 77%;
 }
 
-.s3 {
+.pricing {
   height: 280Vh;
 }
-.s3 .s3container {
+.pricing .pricing-container {
   height: 90%;
   width: 85%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.s3 .s3container .textic {
+.pricing .pricing-container .section-header {
   height: 7%;
 }
-.s3 .s3container .textic p {
+.pricing .pricing-container .section-header p {
   width: 80%;
 }
-.s3 .s3container .note {
+.pricing .pricing-container .pricing-note {
   width: 100%;
   height: 3.5%;
   background-color: #262626;
@@ -568,53 +568,53 @@ header nav button {
   padding-left: 2%;
   gap: 1.5%;
 }
-.s3 .s3container .note h3 {
+.pricing .pricing-container .pricing-note h3 {
   font-size: 1.5rem;
 }
-.s3 .s3container .note p {
+.pricing .pricing-container .pricing-note p {
   font-size: 1.2rem;
 }
-.s3 .s3container .looong {
+.pricing .pricing-container .pricing-content {
   width: 100%;
   height: 85%;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
 }
-.s3 .s3container .looong .ll {
+.pricing .pricing-container .pricing-content .pricing-total {
   width: 15%;
   height: 4%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.s3 .s3container .looong .ll p {
+.pricing .pricing-container .pricing-content .pricing-total p {
   font-size: 1.3rem;
 }
-.s3 .s3container .looong .ll h2 {
+.pricing .pricing-container .pricing-content .pricing-total h2 {
   font-size: 2.5rem;
 }
-.s3 .s3container .looong .lr {
+.pricing .pricing-container .pricing-content .pricing-breakdown {
   width: 80%;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.s3 .s3container .looong .lr h3 {
+.pricing .pricing-container .pricing-content .pricing-breakdown h3 {
   font-size: 1.7rem;
 }
-.s3 .s3container .looong .lr p {
+.pricing .pricing-container .pricing-content .pricing-breakdown p {
   font-size: 1.1rem;
 }
-.s3 .s3container .looong .lr .grayP {
+.pricing .pricing-container .pricing-content .pricing-breakdown .pricing-note-badge {
   padding: 10px;
   background-color: #1A1A1A;
   border-radius: 20px;
   width: auto;
   height: auto;
 }
-.s3 .s3container .looong .lr .first, .s3 .s3container .looong .lr .last {
+.pricing .pricing-container .pricing-content .pricing-breakdown .pricing-section, .pricing .pricing-container .pricing-content .pricing-breakdown .pricing-section {
   width: 100%;
   border: #262626 1px solid;
   border-radius: 15px;
@@ -623,67 +623,67 @@ header nav button {
   justify-content: space-evenly;
   align-items: center;
 }
-.s3 .s3container .looong .lr .first .zagolovok, .s3 .s3container .looong .lr .last .zagolovok {
+.pricing .pricing-container .pricing-content .pricing-breakdown .pricing-section .section-header-row, .pricing .pricing-container .pricing-content .pricing-breakdown .pricing-section .section-header-row {
   display: flex;
   width: 95%;
   height: 15%;
   justify-content: space-between;
   align-items: center;
 }
-.s3 .s3container .looong .lr .first .zagolovok button, .s3 .s3container .looong .lr .last .zagolovok button {
+.pricing .pricing-container .pricing-content .pricing-breakdown .pricing-section .section-header-row button, .pricing .pricing-container .pricing-content .pricing-breakdown .pricing-section .section-header-row button {
   width: 13%;
   background-color: #1A1A1A;
 }
-.s3 .s3container .looong .lr .first .doubleDiv, .s3 .s3container .looong .lr .last .doubleDiv {
+.pricing .pricing-container .pricing-content .pricing-breakdown .pricing-section .pricing-row, .pricing .pricing-container .pricing-content .pricing-breakdown .pricing-section .pricing-row {
   width: 95%;
   height: 23%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.s3 .s3container .looong .lr .first .doubleDiv .fi, .s3 .s3container .looong .lr .last .doubleDiv .fi {
+.pricing .pricing-container .pricing-content .pricing-breakdown .pricing-section .pricing-row .pricing-item, .pricing .pricing-container .pricing-content .pricing-breakdown .pricing-section .pricing-row .pricing-item {
   width: 48%;
   height: 60%;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
 }
-.s3 .s3container .looong .lr .first .doubleDiv .fi div, .s3 .s3container .looong .lr .last .doubleDiv .fi div {
+.pricing .pricing-container .pricing-content .pricing-breakdown .pricing-section .pricing-row .pricing-item div, .pricing .pricing-container .pricing-content .pricing-breakdown .pricing-section .pricing-row .pricing-item div {
   width: 100%;
   height: 50%;
   display: flex;
   gap: 5%;
 }
-.s3 .s3container .looong .lr .first .fiLsat, .s3 .s3container .looong .lr .last .fiLsat {
+.pricing .pricing-container .pricing-content .pricing-breakdown .pricing-section .pricing-item-full, .pricing .pricing-container .pricing-content .pricing-breakdown .pricing-section .pricing-item-full {
   width: 95%;
   height: 13%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.s3 .s3container .looong .lr .first .fiLsat div, .s3 .s3container .looong .lr .last .fiLsat div {
+.pricing .pricing-container .pricing-content .pricing-breakdown .pricing-section .pricing-item-full div, .pricing .pricing-container .pricing-content .pricing-breakdown .pricing-section .pricing-item-full div {
   width: 100%;
   height: 50%;
   display: flex;
   gap: 2%;
 }
-.s3 .s3container .looong .lr .first {
+.pricing .pricing-container .pricing-content .pricing-breakdown .pricing-section {
   height: 30%;
 }
-.s3 .s3container .looong .lr .first button {
+.pricing .pricing-container .pricing-content .pricing-breakdown .pricing-section button {
   height: 65%;
 }
-.s3 .s3container .looong .lr .last {
+.pricing .pricing-container .pricing-content .pricing-breakdown .pricing-section {
   height: 22%;
 }
-.s3 .s3container .looong .lr .last button {
+.pricing .pricing-container .pricing-content .pricing-breakdown .pricing-section button {
   height: 85%;
 }
 
-.s4 {
+.faq {
   height: 100vh;
 }
-.s4 .s4container {
+.faq .faq-container {
   width: 85%;
   height: 80%;
   display: flex;
@@ -691,20 +691,20 @@ header nav button {
   justify-content: space-between;
   align-items: center;
 }
-.s4 .s4container .textic {
+.faq .faq-container .section-header {
   height: 20%;
 }
-.s4 .s4container .textic button {
+.faq .faq-container .section-header button {
   height: 80%;
 }
-.s4 .s4container .que {
+.faq .faq-container .faq-grid {
   width: 100%;
   height: 50%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.s4 .s4container .que .q {
+.faq .faq-container .faq-grid .faq-card {
   width: 32%;
   height: 90%;
   border: #1A1A1A 3px solid;
@@ -713,22 +713,22 @@ header nav button {
   align-items: center;
   justify-content: center;
 }
-.s4 .s4container .que .q h3 {
+.faq .faq-container .faq-grid .faq-card h3 {
   font-size: 1.7rem;
   font-weight: 500;
 }
-.s4 .s4container .que .q p {
+.faq .faq-container .faq-grid .faq-card p {
   font-size: 1.25rem;
   line-height: 1.5;
 }
-.s4 .s4container .que .q .qCont {
+.faq .faq-container .faq-grid .faq-card .faq-card-inner {
   width: 80%;
   height: 80%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
 }
-.s4 .s4container .que .q .qCont button {
+.faq .faq-container .faq-grid .faq-card .faq-card-inner button {
   width: 40%;
   height: 23%;
   background-color: #1A1A1A;
@@ -736,14 +736,14 @@ header nav button {
   border-radius: 15px;
 }
 
-.s5 {
+.cta {
   height: 40vh;
   background-image: url(/kartinki/main1/BacgraundS5.png);
   background-repeat: no-repeat;
   background-size: 100% 80%;
   background-position: bottom;
 }
-.s5 .s5container {
+.cta .cta-container {
   width: 80%;
   height: 60%;
   display: flex;
@@ -751,7 +751,7 @@ header nav button {
   justify-content: space-between;
   background-color: transparent;
 }
-.s5 .s5container div {
+.cta .cta-container div {
   height: 90%;
   display: flex;
   flex-direction: column;
@@ -759,14 +759,14 @@ header nav button {
   width: 70%;
   gap: 10%;
 }
-.s5 .s5container div h2 {
+.cta .cta-container div h2 {
   font-size: 2.7rem;
   font-weight: 500;
 }
-.s5 .s5container div p {
+.cta .cta-container div p {
   font-size: 1.05rem;
 }
-.s5 .s5container button {
+.cta .cta-container button {
   width: 13%;
   height: 25%;
 }
@@ -776,37 +776,37 @@ footer {
   display: flex;
   flex-direction: column;
 }
-footer .ftop {
+footer .footer-top {
   width: 100%;
   height: 80%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-footer .ftop .ftopCont {
+footer .footer-top .footer-top-inner {
   width: 80%;
   height: 65%;
   display: flex;
   justify-content: space-between;
 }
-footer .ftop .ftopCont .ftrc {
+footer .footer-top .footer-top-inner .footer-brand {
   width: 30%;
   height: 55%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-footer .ftop .ftopCont .ftrc .flogo {
+footer .footer-top .footer-top-inner .footer-brand .footer-logo {
   width: 36%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-footer .ftop .ftopCont .ftrc .flogo h3 {
+footer .footer-top .footer-top-inner .footer-brand .footer-logo h3 {
   font-size: 2rem;
   font-weight: 500;
 }
-footer .ftop .ftopCont .ftrc .inputDiv {
+footer .footer-top .footer-top-inner .footer-brand .newsletter {
   width: 100%;
   height: 40%;
   border: #262626 1px solid;
@@ -816,7 +816,7 @@ footer .ftop .ftopCont .ftrc .inputDiv {
   align-items: center;
   padding: 0 5% 0 5%;
 }
-footer .ftop .ftopCont .ftrc .inputDiv input {
+footer .footer-top .footer-top-inner .footer-brand .newsletter input {
   color: #999999;
   font-size: 1.2rem;
   width: 80%;
@@ -824,23 +824,23 @@ footer .ftop .ftopCont .ftrc .inputDiv input {
   border: none;
   background-color: #141414;
 }
-footer .ftop .ftopCont .ftlc {
+footer .footer-top .footer-top-inner .footer-links {
   width: 60%;
   height: 100%;
   display: flex;
   justify-content: space-between;
 }
-footer .ftop .ftopCont .ftlc ul {
+footer .footer-top .footer-top-inner .footer-links ul {
   list-style: none;
   line-height: 2.5;
 }
-footer .ftop .ftopCont .ftlc ul li {
+footer .footer-top .footer-top-inner .footer-links ul li {
   font-size: 1.1rem;
 }
-footer .ftop .ftopCont .ftlc ul li a {
+footer .footer-top .footer-top-inner .footer-links ul li a {
   text-decoration: none;
 }
-footer .fbot {
+footer .footer-bottom {
   width: 100%;
   height: 20%;
   background-color: #1A1A1A;
@@ -848,7 +848,7 @@ footer .fbot {
   justify-content: center;
   align-items: center;
 }
-footer .fbot .fbotCont {
+footer .footer-bottom .footer-bottom-inner {
   width: 80%;
   height: 100%;
   background-color: transparent;
@@ -856,7 +856,7 @@ footer .fbot .fbotCont {
   align-items: center;
   justify-content: space-between;
 }
-footer .fbot .fbotCont .fblc {
+footer .footer-bottom .footer-bottom-inner .footer-copyright {
   width: 30%;
   height: 100%;
   background-color: transparent;
@@ -864,11 +864,11 @@ footer .fbot .fbotCont .fblc {
   justify-content: space-between;
   align-items: center;
 }
-footer .fbot .fbotCont .fblc p {
+footer .footer-bottom .footer-bottom-inner .footer-copyright p {
   background-color: transparent;
   font-size: 1.1rem;
 }
-footer .fbot .fbotCont .fbrc {
+footer .footer-bottom .footer-bottom-inner .footer-socials {
   width: 20%;
   height: 100%;
   display: flex;
@@ -876,7 +876,7 @@ footer .fbot .fbotCont .fbrc {
   justify-content: space-between;
   background-color: #1A1A1A;
 }
-footer .fbot .fbotCont .fbrc img {
+footer .footer-bottom .footer-bottom-inner .footer-socials img {
   width: 20%;
   height: auto;
   border-radius: 30px;
