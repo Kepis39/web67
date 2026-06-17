@@ -8,7 +8,7 @@
 body{
     background-color: #141414;
 }
-header, .s1, .s2, .s3, .s4, .s5, footer{
+header, .hero, .services-section, .investment-services, .s4, .cta, footer{
     width: 100vw;
     display: flex;
     justify-content: center;
@@ -24,14 +24,14 @@ button, nav button{
     border: #262626 1px solid;
     border-radius: 10px;
 }
-.s1 .purpleButton, .purpleButton{
+.hero .btn-primary, .btn-primary{
     background-color: #703BF7;
     color: white;
     font-size: 1.2rem;
     border: #703BF7 1px solid;
     border-radius: 10px;
 }
-header, nav, .logo, .knopki{background-color: #1A1A1A;}
+header, nav, .brand, .nav-links{background-color: #1A1A1A;}
 header{
     height: 8vh;
     nav{
@@ -41,7 +41,7 @@ header{
         justify-content: space-between;
         align-items: center;
         a{text-decoration: none;}
-            .logo{
+            .brand{
                 display: flex;
                 align-items: center;
                 width: 9%;
@@ -52,7 +52,7 @@ header{
                         font-size: 1.9rem;
                     }
             }
-            .knopki{
+            .nav-links{
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
@@ -73,11 +73,11 @@ header{
             }
     }
 }
-.wow{
+.badge-icon{
     width: 4.5%;
     height: auto;
     }
-.textic{
+.section-header{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -98,7 +98,7 @@ header{
         h2{font-size: 3rem; font-weight: 500;}
         p{font-size: 1.2rem; color: #999999; width: 75%;}
 }
-.s1{
+.hero{
     height: 60vh;
     background-color: #1A1A1A;
     position: relative;
@@ -106,7 +106,7 @@ header{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    .s1container{
+    .hero-container{
         margin-top: 7%;
         width: 80%;
         height: 20%;
@@ -116,7 +116,7 @@ header{
         h2{font-weight: 500; font-size: 3rem;}
         p{font-size: 1.12rem; width:87%;}
     }
-     .niz{
+     .hero-features{
         height: 42%;
         width: 100%;
         background-color: #141414;
@@ -126,13 +126,13 @@ header{
         display: flex;
         justify-content: center;
         align-items: center;
-        .nizContainer{
+        .features-inner{
             width: 100%;
             height: 90%;
             display: flex;
             align-items: center;
             justify-content: space-evenly;
-            .option{
+            .feature-card{
                 border: #262626 1px solid;
                 width: 23%;
                 height: 85%;
@@ -146,7 +146,7 @@ header{
                 gap: 5%;
                 img{background-color: #1A1A1A;}
                 p{background-color: #1A1A1A; font-size: 1.2rem;}
-                .verhhh{
+                .arrow-icon{
                     margin: 10px;
                     margin-bottom: 33%;
                     position: absolute;
@@ -159,7 +159,7 @@ header{
         }
     }
 }
-.fanta{
+.service-card{
     width: 32%;
     height: 100%;
     border: #262626 1px solid;
@@ -167,7 +167,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    .fantaCont{
+    .service-card-inner{
         width: 80%;
         height: 90%;
         display: flex;
@@ -180,40 +180,40 @@ header{
         }
     }
 }
-.s2{
+.services-section{
     height: 95vh;
-    .s2container{
+    .services-container{
         width: 85%;
         height: 80%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        .textic{
+        .section-header{
             height: 20%;
             p{width: 85%;}
         }
-        .s2midCont{
+        .services-content{
             width: 100%;
             height: 70%;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
              p{font-size: 1.2rem; line-height: 1.5;}
-            .tverh, .tverh2{
+            .services-top, .services-top-2{
                 width: 100%;
                 height: 48%;
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
             }
-            .tniz, .tniz2{width: 32%; height: 100%;; .fanta{width: 100%;}}
-            .vibe{
+            .services-bottom, .services-bottom-2{width: 32%; height: 100%;; .service-card{width: 100%;}}
+            .services-banner{
                 width: 100%;
                 height: 48%;
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
-                .vibeCont{
+                .banner-inner{
                     width: 65%;
                     height: 100%;
                     background-image: url(/kartinki/service/Card.png);
@@ -241,26 +241,26 @@ header{
         }
     }   
 }
-.s3{
+.investment-services{
     height: 95vh;
-    .s3container{
+    .investment-container{
         width: 85%;
         height: 70%;
         display: flex;
         justify-content: space-between;
-        .s3top{
+        .investment-left{
             width: 32%;
             height: 100%;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            .textic{
+            .section-header{
             width: 100%;
             height: 33%;
             p{width: 100%;}
             img{width: 15%;}
             }
-            .ogo{
+            .investment-cta{
                 width: 100%;
                 height: 50%;
                 display: flex;
@@ -279,7 +279,7 @@ header{
                 }
             }
         }
-        .s3net{
+        .investment-right{
             width: 65%;
             height: 100%;
             display: flex;
@@ -288,22 +288,22 @@ header{
             background-color: #1A1A1A;
             border: #1A1A1A 15px solid;
             border-radius: 15px;
-            .pepsi{
+            .investment-row{
                 display: flex;
                 justify-content: space-between;
                 height: 48%;
-                .fanta{ p{font-size: 1.2rem; line-height: 1.5;}width: 48%; background-color: #141414;}
+                .service-card{ p{font-size: 1.2rem; line-height: 1.5;}width: 48%; background-color: #141414;}
             }
         }
     }
 }
-.s5{
+.cta{
     height: 40vh;
     background-image: url(/kartinki/main1/BacgraundS5.png);
     background-repeat: no-repeat;
     background-size: 100% 80%;
     background-position: bottom;
-    .s5container{
+    .cta-container{
         width: 80%;
         height: 60%;
         display: flex;
@@ -330,31 +330,31 @@ footer{
     height: 50vh;
     display: flex;
     flex-direction: column;
-    .ftop{
+    .footer-top{
         width: 100%;
         height: 80%;
         display: flex;
         justify-content: center;
         align-items: center;
-        .ftopCont{
+        .footer-top-inner{
             width: 80%;
             height: 65%;
             display: flex;
             justify-content: space-between;
-            .ftrc{
+            .footer-brand{
                 width: 30%;
                 height: 55%;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
-                .flogo{
+                .footer-logo{
                     width:36%;
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
                     h3{font-size: 2rem; font-weight: 500;}
                 }
-                .inputDiv{
+                .newsletter{
                     width: 100%;
                     height: 40%;
                     border: #262626 1px solid;
@@ -373,7 +373,7 @@ footer{
                     }
                 }
             }
-            .ftlc{
+            .footer-links{
                 width: 60%;
                 height: 100%;
                 display: flex;
@@ -391,21 +391,21 @@ footer{
             }
         }
     }
-    .fbot{
+    .footer-bottom{
         width: 100%;
         height: 20%;
         background-color: #1A1A1A;
         display: flex;
         justify-content: center;
         align-items: center;
-        .fbotCont{
+        .footer-bottom-inner{
             width: 80%;
             height: 100%;
             background-color: transparent;
             display: flex;
             align-items: center;
             justify-content: space-between;
-            .fblc{
+            .footer-copyright{
                 width: 30%;
                 height: 100%;
                 background-color: transparent;
@@ -414,7 +414,7 @@ footer{
                 align-items: center;
                 p{background-color: transparent; font-size: 1.1rem;}
             }
-            .fbrc{
+            .footer-socials{
                 width: 20%;
                 height: 100%;
                 display: flex;
