@@ -10,7 +10,7 @@ body {
   background-color: #141414;
 }
 
-header, .s1, .s2, .s3, .s4, .s5, footer {
+header, .hero, .contact-form, .offices, .gallery, .cta, footer {
   width: 100vw;
   display: flex;
   justify-content: center;
@@ -21,7 +21,7 @@ h1, h2, h3, a {
   color: white;
 }
 
-.purpleButton {
+.btn-primary {
   background-color: #703BF7;
   color: white;
   font-size: 1.2rem;
@@ -49,41 +49,41 @@ button, nav button {
   border-radius: 10px;
 }
 
-.wow {
+.badge-icon {
   width: 4.5%;
   height: auto;
 }
 
-.textic {
+.section-header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   width: 100%;
   height: 13%;
 }
-.textic div {
+.section-header div {
   width: 100%;
   height: 70%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.textic div button {
+.section-header div button {
   width: 13%;
   height: 90%;
   background-color: #1A1A1A;
 }
-.textic h2 {
+.section-header h2 {
   font-size: 3rem;
   font-weight: 500;
 }
-.textic p {
+.section-header p {
   font-size: 1.2rem;
   color: #999999;
   width: 75%;
 }
 
-header, nav, .logo, .knopki {
+header, nav, .brand, .nav-links {
   background-color: #1A1A1A;
 }
 
@@ -100,29 +100,29 @@ header nav {
 header nav a {
   text-decoration: none;
 }
-header nav .logo {
+header nav .brand {
   display: flex;
   align-items: center;
   width: 9%;
   height: 100%;
   gap: 10px;
 }
-header nav .logo h3 {
+header nav .brand h3 {
   color: white;
   font-size: 1.9rem;
 }
-header nav .knopki {
+header nav .nav-links {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 30%;
   height: 100%;
 }
-header nav .knopki button {
+header nav .nav-links button {
   width: 22%;
   border: none;
 }
-header nav .knopki button:hover {
+header nav .nav-links button:hover {
   border: #262626 1px solid;
   border-radius: 5px;
 }
@@ -131,7 +131,7 @@ header nav button {
   width: 10%;
 }
 
-.s1 {
+.hero {
   height: 60vh;
   background-color: #1A1A1A;
   position: relative;
@@ -140,7 +140,7 @@ header nav button {
   justify-content: space-between;
   align-items: center;
 }
-.s1 .s1container {
+.hero .hero-container {
   margin-top: 7%;
   width: 80%;
   height: 20%;
@@ -148,15 +148,15 @@ header nav button {
   flex-direction: column;
   justify-content: space-between;
 }
-.s1 .s1container h2 {
+.hero .hero-container h2 {
   font-weight: 500;
   font-size: 3rem;
 }
-.s1 .s1container p {
+.hero .hero-container p {
   font-size: 1.12rem;
   width: 87%;
 }
-.s1 .niz {
+.hero .contact-bar {
   height: 42%;
   width: 100%;
   background-color: #141414;
@@ -167,14 +167,14 @@ header nav button {
   justify-content: center;
   align-items: center;
 }
-.s1 .niz .nizContainer {
+.hero .contact-bar .contact-bar-inner {
   width: 100%;
   height: 90%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
-.s1 .niz .nizContainer .option {
+.hero .contact-bar .contact-bar-inner .contact-item {
   border: #262626 1px solid;
   width: 23%;
   height: 85%;
@@ -187,14 +187,14 @@ header nav button {
   flex-direction: column;
   gap: 5%;
 }
-.s1 .niz .nizContainer .option img {
+.hero .contact-bar .contact-bar-inner .contact-item img {
   background-color: #1A1A1A;
 }
-.s1 .niz .nizContainer .option p {
+.hero .contact-bar .contact-bar-inner .contact-item p {
   background-color: #1A1A1A;
   font-size: 1.2rem;
 }
-.s1 .niz .nizContainer .option .verhhh {
+.hero .contact-bar .contact-bar-inner .contact-item .arrow-icon {
   margin: 10px;
   margin-bottom: 33%;
   position: absolute;
@@ -202,28 +202,28 @@ header nav button {
   width: 8%;
   height: auto;
 }
-.s1 .niz .nizContainer .option img {
+.hero .contact-bar .contact-bar-inner .contact-item img {
   width: 20%;
   height: auto;
 }
 
-.s2 {
+.contact-form {
   height: 130vh;
 }
-.s2 .s2container {
+.contact-form .form-container {
   width: 80%;
   height: 80%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.s2 .s2container .textic {
+.contact-form .form-container .section-header {
   height: 15%;
 }
-.s2 .s2container .textic p {
+.contact-form .form-container .section-header p {
   width: 90%;
 }
-.s2 .s2container .form3 {
+.contact-form .form-container .form-wrapper {
   padding: 60px;
   width: 100%;
   height: 75%;
@@ -233,11 +233,11 @@ header nav button {
   flex-direction: column;
   justify-content: space-evenly;
 }
-.s2 .s2container .form3 p {
+.contact-form .form-container .form-wrapper p {
   color: white;
   font-size: 1.3rem;
 }
-.s2 .s2container .form3 input {
+.contact-form .form-container .form-wrapper input {
   background-color: #1A1A1A;
   border: #262626 1px solid;
   width: 22vw;
@@ -246,20 +246,20 @@ header nav button {
   border-radius: 10px;
   font-size: 1.2rem;
 }
-.s2 .s2container .form3 .f3top,
-.s2 .s2container .form3 .f3top2 {
+.contact-form .form-container .form-wrapper .form-row-1,
+.contact-form .form-container .form-wrapper .form-row-2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.s2 .s2container .form3 .f3top .kartinka1, .s2 .s2container .form3 .f3top .kartinka2,
-.s2 .s2container .form3 .f3top2 .kartinka1,
-.s2 .s2container .form3 .f3top2 .kartinka2 {
+.contact-form .form-container .form-wrapper .form-row-1 .dropdown-icon-1, .contact-form .form-container .form-wrapper .form-row-1 .dropdown-icon-2,
+.contact-form .form-container .form-wrapper .form-row-2 .dropdown-icon-1,
+.contact-form .form-container .form-wrapper .form-row-2 .dropdown-icon-2 {
   position: absolute;
   margin-top: 1.5%;
   margin-left: -2%;
 }
-.s2 .s2container .form3 .f3top3 div {
+.contact-form .form-container .form-wrapper .form-message div {
   width: 100%;
   height: 10vh;
   border: #262626 1px solid;
@@ -267,21 +267,21 @@ header nav button {
   padding: 20px;
   background-color: #1A1A1A;
 }
-.s2 .s2container .form3 .f3top4 {
+.contact-form .form-container .form-wrapper .form-submit {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.s2 .s2container .form3 .f3top4 div {
+.contact-form .form-container .form-wrapper .form-submit div {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 33%;
 }
-.s2 .s2container .form3 .f3top4 div input {
+.contact-form .form-container .form-wrapper .form-submit div input {
   width: 1.3vw;
 }
-.s2 .s2container .form3 .f3top4 button {
+.contact-form .form-container .form-wrapper .form-submit button {
   width: 20%;
   padding: 20px;
   border: #703BF7 1px solid;
@@ -290,23 +290,23 @@ header nav button {
   border-radius: 10px;
 }
 
-.s3 {
+.offices {
   height: 100vh;
 }
-.s3 .s3container {
+.offices .offices-container {
   width: 80%;
   height: 80%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.s3 .s3container .textic {
+.offices .offices-container .section-header {
   height: 15%;
 }
-.s3 .s3container .textic p {
+.offices .offices-container .section-header p {
   width: 90%;
 }
-.s3 .ARL {
+.offices .office-tabs {
   width: 30vw;
   display: flex;
   justify-content: space-between;
@@ -315,7 +315,7 @@ header nav button {
   border-radius: 10px;
   padding: 20px;
 }
-.s3 .ARL button {
+.offices .office-tabs button {
   padding: 10px;
   width: 30%;
   background-color: #1A1A1A;
@@ -323,24 +323,24 @@ header nav button {
   color: white;
   border: #262626 1px solid;
 }
-.s3 .ARL button:first-child {
+.offices .office-tabs button:first-child {
   background-color: #141414;
 }
 
-.infa {
+.office-cards {
   height: 60%;
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
-.infa h3 {
+.office-cards h3 {
   font-size: 1.8rem;
 }
-.infa p {
+.office-cards p {
   font-size: 1.2rem;
   line-height: 1.5;
 }
-.infa .infoCard {
+.office-cards .office-card {
   padding: 40px;
   height: 100%;
   width: 49%;
@@ -350,12 +350,12 @@ header nav button {
   flex-direction: column;
   justify-content: space-between;
 }
-.infa .infoCard .pupi {
+.office-cards .office-card .office-details {
   display: flex;
   justify-content: space-between;
   width: 80%;
 }
-.infa .infoCard .pupi div {
+.office-cards .office-card .office-details div {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -365,18 +365,18 @@ header nav button {
   background-color: #1A1A1A;
   border: #262626 1px solid;
 }
-.infa .infoCard .pupi div img {
+.office-cards .office-card .office-details div img {
   height: 1.8vh;
 }
-.infa .infoCard button {
+.office-cards .office-card button {
   height: 6vh;
   border-radius: 10px;
 }
 
-.s4 {
+.gallery {
   height: 100vh;
 }
-.s4 .peoples {
+.gallery .gallery-wrapper {
   width: 85%;
   height: 80%;
   background-image: url(/kartinki/service/Card.png);
@@ -388,56 +388,56 @@ header nav button {
   justify-content: space-between;
   padding: 50px;
 }
-.s4 .peoples .pp {
+.gallery .gallery-wrapper .gallery-grid {
   width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.s4 .peoples img {
+.gallery .gallery-wrapper img {
   width: 48%;
   height: 100%;
 }
-.s4 .peoples .sixseven {
+.gallery .gallery-wrapper .gallery-text {
   width: 48%;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
 }
-.s4 .peoples .sixseven .wow {
+.gallery .gallery-wrapper .gallery-text .badge-icon {
   width: 15%;
   height: auto;
   background-color: transparent;
 }
-.s4 .peoples .sixseven p {
+.gallery .gallery-wrapper .gallery-text p {
   font-size: 1.3rem;
   line-height: 1.5;
 }
-.s4 .peoples .sixseven h1 {
+.gallery .gallery-wrapper .gallery-text h1 {
   font-size: 3rem;
 }
-.s4 .peoples .top, .s4 .peoples .bot, .s4 .peoples .center {
+.gallery .gallery-wrapper .gallery-top, .gallery .gallery-wrapper .gallery-bottom, .gallery .gallery-wrapper .gallery-center {
   height: 30%;
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
-.s4 .peoples .nicho {
+.gallery .gallery-wrapper .gallery-pair {
   width: 48%;
   display: flex;
   justify-content: space-between;
 }
 
-.s5 {
+.cta {
   height: 40vh;
   background-image: url(/kartinki/main1/BacgraundS5.png);
   background-repeat: no-repeat;
   background-size: 100% 80%;
   background-position: bottom;
 }
-.s5 .s5container {
+.cta .cta-container {
   width: 80%;
   height: 60%;
   display: flex;
@@ -445,7 +445,7 @@ header nav button {
   justify-content: space-between;
   background-color: transparent;
 }
-.s5 .s5container div {
+.cta .cta-container div {
   height: 90%;
   display: flex;
   flex-direction: column;
@@ -453,14 +453,14 @@ header nav button {
   width: 70%;
   gap: 10%;
 }
-.s5 .s5container div h2 {
+.cta .cta-container div h2 {
   font-size: 2.7rem;
   font-weight: 500;
 }
-.s5 .s5container div p {
+.cta .cta-container div p {
   font-size: 1.05rem;
 }
-.s5 .s5container button {
+.cta .cta-container button {
   width: 13%;
   height: 25%;
 }
@@ -470,37 +470,37 @@ footer {
   display: flex;
   flex-direction: column;
 }
-footer .ftop {
+footer .footer-top {
   width: 100%;
   height: 80%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-footer .ftop .ftopCont {
+footer .footer-top .footer-top-inner {
   width: 80%;
   height: 65%;
   display: flex;
   justify-content: space-between;
 }
-footer .ftop .ftopCont .ftrc {
+footer .footer-top .footer-top-inner .footer-brand {
   width: 30%;
   height: 55%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-footer .ftop .ftopCont .ftrc .flogo {
+footer .footer-top .footer-top-inner .footer-brand .footer-logo {
   width: 36%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-footer .ftop .ftopCont .ftrc .flogo h3 {
+footer .footer-top .footer-top-inner .footer-brand .footer-logo h3 {
   font-size: 2rem;
   font-weight: 500;
 }
-footer .ftop .ftopCont .ftrc .inputDiv {
+footer .footer-top .footer-top-inner .footer-brand .newsletter {
   width: 100%;
   height: 40%;
   border: #262626 1px solid;
@@ -510,7 +510,7 @@ footer .ftop .ftopCont .ftrc .inputDiv {
   align-items: center;
   padding: 0 5% 0 5%;
 }
-footer .ftop .ftopCont .ftrc .inputDiv input {
+footer .footer-top .footer-top-inner .footer-brand .newsletter input {
   color: #999999;
   font-size: 1.2rem;
   width: 80%;
@@ -518,23 +518,23 @@ footer .ftop .ftopCont .ftrc .inputDiv input {
   border: none;
   background-color: #141414;
 }
-footer .ftop .ftopCont .ftlc {
+footer .footer-top .footer-top-inner .footer-links {
   width: 60%;
   height: 100%;
   display: flex;
   justify-content: space-between;
 }
-footer .ftop .ftopCont .ftlc ul {
+footer .footer-top .footer-top-inner .footer-links ul {
   list-style: none;
   line-height: 2.5;
 }
-footer .ftop .ftopCont .ftlc ul li {
+footer .footer-top .footer-top-inner .footer-links ul li {
   font-size: 1.1rem;
 }
-footer .ftop .ftopCont .ftlc ul li a {
+footer .footer-top .footer-top-inner .footer-links ul li a {
   text-decoration: none;
 }
-footer .fbot {
+footer .footer-bottom {
   width: 100%;
   height: 20%;
   background-color: #1A1A1A;
@@ -542,7 +542,7 @@ footer .fbot {
   justify-content: center;
   align-items: center;
 }
-footer .fbot .fbotCont {
+footer .footer-bottom .footer-bottom-inner {
   width: 80%;
   height: 100%;
   background-color: transparent;
@@ -550,7 +550,7 @@ footer .fbot .fbotCont {
   align-items: center;
   justify-content: space-between;
 }
-footer .fbot .fbotCont .fblc {
+footer .footer-bottom .footer-bottom-inner .footer-copyright {
   width: 30%;
   height: 100%;
   background-color: transparent;
@@ -558,11 +558,11 @@ footer .fbot .fbotCont .fblc {
   justify-content: space-between;
   align-items: center;
 }
-footer .fbot .fbotCont .fblc p {
+footer .footer-bottom .footer-bottom-inner .footer-copyright p {
   background-color: transparent;
   font-size: 1.1rem;
 }
-footer .fbot .fbotCont .fbrc {
+footer .footer-bottom .footer-bottom-inner .footer-socials {
   width: 20%;
   height: 100%;
   display: flex;
@@ -570,7 +570,7 @@ footer .fbot .fbotCont .fbrc {
   justify-content: space-between;
   background-color: #1A1A1A;
 }
-footer .fbot .fbotCont .fbrc img {
+footer .footer-bottom .footer-bottom-inner .footer-socials img {
   width: 20%;
   height: auto;
   border-radius: 30px;
