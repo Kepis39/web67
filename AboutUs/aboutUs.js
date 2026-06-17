@@ -6,28 +6,28 @@ const cards = [
     {number:"05",title:"Making Informed Decisions",description:"Before making an offer, our team will assist you with due diligence, including property inspections, legal checks, and market analysis. We want you to be fully informed and confident in your choice."},
     {number:"06",title:"Getting the Best Deal",description:"We'll help you negotiate the best terms and prepare your offer. Our goal is to secure the property at the right price and on favorable terms."}
 ];
-const topCard = document.getElementById('tc');
-const botCard = document.getElementById('bc');
+const topCard = document.getElementById('process-top-cards');
+const botCard = document.getElementById('process-bottom-cards');
 const topCards = cards.slice(0,3);
 const botCards = cards.slice(3,6);
 
 topCard.innerHTML = topCards.map(
-    i => `<div class="card">
-            <div class="num">
+    i => `<div class="process-card">
+            <div class="step-number">
                 <p>Step ${i.number}</p>
             </div>
-            <div class="words">
+            <div class="step-content">
                 <h3>${i.title}</h3>
                 <p>${i.description}</P>
             </div>
         </div>`
 ).join('');
 botCard.innerHTML = botCards.map(
-    i => `<div class="card">
-            <div class="num">
+    i => `<div class="process-card">
+            <div class="step-number">
                 <p>Step ${i.number}</p>
             </div>
-            <div class="words">
+            <div class="step-content">
                 <h3>${i.title}</h3>
                 <p>${i.description}</P>
             </div>
@@ -40,19 +40,19 @@ const Team =[
     {img:"/kartinki/aboutUs/David.png",name:"David Brown",status:"Head of Property Management"},
     {img:"/kartinki/aboutUs/NotSarah.png",name:"Michael Turner",status:"Legal Counsel"}
 ];
-const dreamTeam = document.getElementById('team');
+const dreamTeam = document.getElementById('team-members');
 dreamTeam.innerHTML = Team.map(
-    i => `<div class="person">
-            <div class="personContainer">
-                <div class="personImg">
+    i => `<div class="team-member">
+            <div class="member-inner">
+                <div class="member-photo">
                     <img src="${i.img}" alt="">
-                    <img src="/kartinki/aboutUs/PurpleX.png" alt="" class="tw">
+                    <img src="/kartinki/aboutUs/PurpleX.png" alt="" class="social-icon">
                 </div>
-                <div class="persInfo">
+                <div class="member-info">
                     <h2>${i.name}</h2>
                     <p>${i.status}</p>
                 </div>
-                <div class="SayHi">
+                <div class="member-contact">
                     <p>Say Hallo</p>
                     <button><img src="/kartinki/aboutUs/PurpleTg.png" alt=""></button>
                 </div>
@@ -63,19 +63,19 @@ const Clients =[
     {year:"2019", name:"ABC Corporation", category:"Luxury Home Development", message:"Estatein's expertise in finding the perfect office space for our expanding operations was invaluable. They truly understand our business needs."},
     {year:"2018", name:"GreenTech Enterprises", category:"Retail Space", message:"Estatein's ability to identify prime retail locations helped us expand our brand presence. They are a trusted partner in our growth."}
 ];
-const Peoples = document.getElementById('clients');
+const Peoples = document.getElementById('clients-grid');
 Peoples.innerHTML = Clients.map(
-    i => `<div class="client">
-            <div class="clientContainer">
-                <div class="topCl">
+    i => `<div class="client-card">
+            <div class="client-inner">
+                <div class="client-header">
                     <div>
                         <p>since ${i.year}</p>
                         <h2>${i.name}</h2>
                     </div>
                     <button>Visit Website</button>
                 </div>
-                <div class="midCl">
-                    <div class="asd">
+                <div class="client-details">
+                    <div class="detail-item">
                         <div>
                             <img src="/kartinki/aboutUs/kvadrat.png" alt="">
                             <p>Domain</p>
@@ -83,7 +83,7 @@ Peoples.innerHTML = Clients.map(
                         <p>Commercial Real Estate</p>
                     </div>
                     <div style="width: 0.5px; height: 90%; background-color: #999999;"></div>
-                    <div class="asd">
+                    <div class="detail-item">
                         <div>
                             <img src="/kartinki/aboutUs/molniya.png" alt="">
                             <p>Category</p>
@@ -91,7 +91,7 @@ Peoples.innerHTML = Clients.map(
                         <p>${i.category}</p>
                     </div>
                 </div>
-                <div class="end">
+                <div class="client-testimonial">
                     <p>What They Said</p>
                     <p class="whitep">${i.message}</p>
                 </div>
