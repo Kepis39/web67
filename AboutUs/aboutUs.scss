@@ -6,7 +6,7 @@
     background-color: #141414;
     font-family: 'Urbanist', sans-serif;
 }
-header, .s1, .s2, .s3, .s4, .s5, .s6, .s7, footer{
+header, .hero, .values, .achievements, .process, .team, .clients-grid, .cta, footer{
     width: 100vw;
     display: flex;
     justify-content: center;
@@ -21,21 +21,21 @@ button, nav button{
     border: #262626 1px solid;
     border-radius: 10px;
 }
-header, nav, .logo, .knopki{background-color: #1A1A1A;}
-.purpleButton{
+header, nav, .brand, .nav-links{background-color: #1A1A1A;}
+.btn-primary{
     background-color: #703BF7;
     color: white;
     font-size: 1.2rem;
     border: #703BF7 1px solid;
     border-radius: 10px;
 }
-.underCards{
+.pagination{
         width: 100%;
         height: 10%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        .tap{
+        .pagination-controls{
             width: 100%;
             height: 70%;
             display: flex;
@@ -67,7 +67,7 @@ header{
         justify-content: space-between;
         align-items: center;
         a{text-decoration: none;}
-            .logo{
+            .brand{
                 display: flex;
                 align-items: center;
                 width: 9%;
@@ -78,7 +78,7 @@ header{
                         font-size: 1.9rem;
                     }
             }
-            .knopki{
+            .nav-links{
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
@@ -99,22 +99,22 @@ header{
             }
         }
 }
-.s1{
+.hero{
     width: 100vw;
     height: 70vh;
-    .s1container{
+    .hero-container{
         width: 84%;
         height: 70%;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        .s1left{
+        .hero-left{
             width: 48%;
             height: 90%;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            .s1ltitle{
+            .hero-title{
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
@@ -123,13 +123,13 @@ header{
                 p{font-size: 1.2rem; line-height: 1.5;}
                 img{width: 10%; height: auto;}
             }
-            .kamen{
+            .stats{
                     width: 100%;
                     height: 30%;
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
-                    .stol{
+                    .stat-item{
                         width: 31%;
                         height: 100%;
                         background-color: #1A1A1A;
@@ -150,7 +150,7 @@ header{
                     }
                 }
         }
-        .s1right{
+        .hero-right{
             width: 50%;
             height: 100%;
             display: flex;
@@ -160,15 +160,15 @@ header{
         }
     }
 }
-.s2{
+.values{
     height: 65vh;
-    .s2container{
+    .values-container{
         width: 84%;
         height: 70%;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        .s2lc{
+        .values-left{
             width: 34%;
             height: 50%;
             display: flex;
@@ -178,7 +178,7 @@ header{
             p{font-size: 1.2rem; line-height: 1.5;}
             img{width: 10%; height: auto;}
         }
-        .s2rc{
+        .values-right{
             width: 60%;
             height: 90%;
             border: #1A1A1A 15px solid;
@@ -187,13 +187,13 @@ header{
             flex-direction: column;
             justify-content: space-evenly;
             align-items: center;
-            .righttop{
+            .values-row{
                 width: 90%;
                 height: 45%;
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
-                .info{
+                .value-item{
                     width: 45%;
                     height: 100%;
                     display: flex;
@@ -212,15 +212,15 @@ header{
         }
     }
 }
-.s3{
+.achievements{
     height: 60vh;
-    .s3container{
+    .achievements-container{
         width: 80%;
         height: 80%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        .s3card{
+        .achievements-cards{
             width: 100%;
             height: 50%;
             display: flex;
@@ -241,7 +241,7 @@ header{
         }
     }
 }
-.textic{
+.section-header{
     width: 90%;
     height: 40%;
     display: flex;
@@ -251,33 +251,33 @@ header{
     p{font-size: 1.2rem;}
     img{width: 7%; height: auto;}
 }
-.s4{
+.process{
     height: 100vh;
-    .s4container{
+    .process-container{
         width: 80%;
         height: 90%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        .textic{height: 15%;}
-        .cards{
+        .section-header{height: 15%;}
+        .process-cards{
             width: 100%;
             height: 75%;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            .topcards, .botcards{
+            .process-top, .process-bottom{
                 width: 100%;
                 height: 48%;
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
-                .card{
+                .process-card{
                     width: 32%;
                     height: 100%;
                     display: flex;
                     flex-direction: column;
-                    .num{
+                    .step-number{
                         height: 17%;
                         display: flex;
                         align-items: center;
@@ -285,7 +285,7 @@ header{
                         p{font-size: 1.3rem; color: white;}
                         border-left: #703BF7 1px solid;
                     }
-                    .words{
+                    .step-content{
                         width: 100%;
                         height: 70%;
                         padding: 3% 0 0 5%;
@@ -305,22 +305,22 @@ header{
         }
     }
 }
-.s5{
+.team{
     height: 80vh;
     align-items: start;
-    .s5container{
+    .team-container{
         width: 80%;
         height: 90%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        .textic{height: 25%;}
-        .Team{
+        .section-header{height: 25%;}
+        .team-grid{
             width: 100%;
             height: 65%;
             display: flex;
             justify-content: space-between;
-            .person{
+            .team-member{
                 width: 23%;
                 height: 100%;
                 border: #262626 1px solid;
@@ -329,19 +329,19 @@ header{
                 justify-content: center;
                 align-items: center;
                 p, img, h2, div{background-color: transparent;}
-                .personContainer{
+                .member-inner{
                     width: 90%;
                     height: 90%;
                     display: flex;
                     flex-direction: column;
                     justify-content: space-between;
                     position: relative;
-                    .tw{
+                    .social-icon{
                         position: absolute;
                         align-self: center;
                         margin-left: 37%;
                     }
-                    .persInfo{
+                    .member-info{
                         margin-top: 5%;
                         height: 15%;
                         display: flex;
@@ -351,7 +351,7 @@ header{
                         h2{font-weight: 500;}
                         p{font-size: 1rem;}
                     }
-                    .SayHi{
+                    .member-contact{
                         width: 100%;
                         height: 15%;
                         border: #262626 1px solid;
@@ -368,25 +368,25 @@ header{
         }
     }
 }
-.s6{
+.clients-grid{
     height: 100vh;
-    .s6container{
+    .clients-container{
         width: 80%;
         height: 80%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        .textic{
+        .section-header{
             height: 20%;
         }
-        .underCards{height: 8%;}
-        .clients{
+        .pagination{height: 8%;}
+        .clients-grid{
             width: 100%;
             height: 65%;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            .client{
+            .client-card{
                 width: 47%;
                 height: 90%;
                 border: #1A1A1A 10px solid;
@@ -394,13 +394,13 @@ header{
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                .clientContainer{
+                .client-inner{
                     width: 85%;
                     height: 85%;
                     display: flex;
                     flex-direction: column;
                     justify-content: space-between;
-                    .topCl{
+                    .client-header{
                         width: 100%;
                         height: 20%;
                         display: flex;
@@ -419,13 +419,13 @@ header{
                             background-color: #1A1A1A;
                         }
                     }
-                    .midCl{
+                    .client-details{
                         width: 100%;
                         height: 30%;
                         display: flex;
                         justify-content: space-between;
                         align-items: center;
-                        .asd{
+                        .detail-item{
                             width: 40%;
                             height: 60%;
                             display: flex;
@@ -440,7 +440,7 @@ header{
                             p{color: white; font-size: 1.2rem;}
                         }
                     }
-                    .end{
+                    .client-testimonial{
                         padding: 3.5%;
                         width: 100%;
                         height: 30%;
@@ -458,13 +458,13 @@ header{
         }
     }
 }
-.s7{
+.cta{
     height: 40vh;
     background-image: url(/kartinki/main1/BacgraundS5.png);
     background-repeat: no-repeat;
     background-size: 100% 80%;
     background-position: bottom;
-    .s7container{
+    .cta-container{
         width: 80%;
         height: 60%;
         display: flex;
@@ -491,31 +491,31 @@ footer{
     height: 50vh;
     display: flex;
     flex-direction: column;
-    .ftop{
+    .footer-top{
         width: 100%;
         height: 80%;
         display: flex;
         justify-content: center;
         align-items: center;
-        .ftopCont{
+        .footer-top-inner{
             width: 80%;
             height: 65%;
             display: flex;
             justify-content: space-between;
-            .ftrc{
+            .footer-brand{
                 width: 30%;
                 height: 55%;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
-                .flogo{
+                .footer-logo{
                     width:36%;
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
                     h3{font-size: 2rem; font-weight: 500;}
                 }
-                .inputDiv{
+                .newsletter{
                     width: 100%;
                     height: 40%;
                     border: #262626 1px solid;
@@ -533,7 +533,7 @@ footer{
                     }
                 }
             }
-            .ftlc{
+            .footer-links{
                 width: 60%;
                 height: 100%;
                 display: flex;
@@ -551,21 +551,21 @@ footer{
             }
         }
     }
-    .fbot{
+    .footer-bottom{
         width: 100%;
         height: 20%;
         background-color: #1A1A1A;
         display: flex;
         justify-content: center;
         align-items: center;
-        .fbotCont{
+        .footer-bottom-inner{
             width: 80%;
             height: 100%;
             background-color: transparent;
             display: flex;
             align-items: center;
             justify-content: space-between;
-            .fblc{
+            .footer-copyright{
                 width: 30%;
                 height: 100%;
                 background-color: transparent;
@@ -574,7 +574,7 @@ footer{
                 align-items: center;
                 p{background-color: transparent; font-size: 1.1rem;}
             }
-            .fbrc{
+            .footer-socials{
                 width: 20%;
                 height: 100%;
                 display: flex;
