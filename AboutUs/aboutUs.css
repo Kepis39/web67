@@ -7,7 +7,7 @@
   font-family: "Urbanist", sans-serif;
 }
 
-header, .s1, .s2, .s3, .s4, .s5, .s6, .s7, footer {
+header, .hero, .values, .achievements, .process, .team, .clients-grid, .cta, footer {
   width: 100vw;
   display: flex;
   justify-content: center;
@@ -30,11 +30,11 @@ button, nav button {
   border-radius: 10px;
 }
 
-header, nav, .logo, .knopki {
+header, nav, .brand, .nav-links {
   background-color: #1A1A1A;
 }
 
-.purpleButton {
+.btn-primary {
   background-color: #703BF7;
   color: white;
   font-size: 1.2rem;
@@ -42,30 +42,30 @@ header, nav, .logo, .knopki {
   border-radius: 10px;
 }
 
-.underCards {
+.pagination {
   width: 100%;
   height: 10%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.underCards .tap {
+.pagination .pagination-controls {
   width: 100%;
   height: 70%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.underCards .tap p {
+.pagination .pagination-controls p {
   font-size: 1.3rem;
 }
-.underCards .tap div {
+.pagination .pagination-controls div {
   width: 8%;
   height: 100%;
   display: flex;
   justify-content: space-between;
 }
-.underCards .tap div button {
+.pagination .pagination-controls div button {
   width: 42%;
   height: 100%;
   display: flex;
@@ -87,29 +87,29 @@ header nav {
 header nav a {
   text-decoration: none;
 }
-header nav .logo {
+header nav .brand {
   display: flex;
   align-items: center;
   width: 9%;
   height: 100%;
   gap: 10px;
 }
-header nav .logo h3 {
+header nav .brand h3 {
   color: white;
   font-size: 1.9rem;
 }
-header nav .knopki {
+header nav .nav-links {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 30%;
   height: 100%;
 }
-header nav .knopki button {
+header nav .nav-links button {
   width: 22%;
   border: none;
 }
-header nav .knopki button:hover {
+header nav .nav-links button:hover {
   border: #262626 1px solid;
   border-radius: 5px;
 }
@@ -118,50 +118,50 @@ header nav button {
   width: 10%;
 }
 
-.s1 {
+.hero {
   width: 100vw;
   height: 70vh;
 }
-.s1 .s1container {
+.hero .hero-container {
   width: 84%;
   height: 70%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.s1 .s1container .s1left {
+.hero .hero-container .hero-left {
   width: 48%;
   height: 90%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.s1 .s1container .s1left .s1ltitle {
+.hero .hero-container .hero-left .hero-title {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 50%;
 }
-.s1 .s1container .s1left .s1ltitle h2 {
+.hero .hero-container .hero-left .hero-title h2 {
   font-weight: 500;
   font-size: 3rem;
 }
-.s1 .s1container .s1left .s1ltitle p {
+.hero .hero-container .hero-left .hero-title p {
   font-size: 1.2rem;
   line-height: 1.5;
 }
-.s1 .s1container .s1left .s1ltitle img {
+.hero .hero-container .hero-left .hero-title img {
   width: 10%;
   height: auto;
 }
-.s1 .s1container .s1left .kamen {
+.hero .hero-container .hero-left .stats {
   width: 100%;
   height: 30%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.s1 .s1container .s1left .kamen .stol {
+.hero .hero-container .hero-left .stats .stat-item {
   width: 31%;
   height: 100%;
   background-color: #1A1A1A;
@@ -172,56 +172,56 @@ header nav button {
   justify-content: center;
   padding-left: 3%;
 }
-.s1 .s1container .s1left .kamen .stol h2 {
+.hero .hero-container .hero-left .stats .stat-item h2 {
   font-size: 2.5rem;
   background-color: #1A1A1A;
 }
-.s1 .s1container .s1left .kamen .stol p {
+.hero .hero-container .hero-left .stats .stat-item p {
   font-size: 1.2rem;
   background-color: #1A1A1A;
 }
-.s1 .s1container .s1right {
+.hero .hero-container .hero-right {
   width: 50%;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.s1 .s1container .s1right img {
+.hero .hero-container .hero-right img {
   width: 95%;
   height: auto;
 }
 
-.s2 {
+.values {
   height: 65vh;
 }
-.s2 .s2container {
+.values .values-container {
   width: 84%;
   height: 70%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.s2 .s2container .s2lc {
+.values .values-container .values-left {
   width: 34%;
   height: 50%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.s2 .s2container .s2lc h2 {
+.values .values-container .values-left h2 {
   font-weight: 500;
   font-size: 3rem;
 }
-.s2 .s2container .s2lc p {
+.values .values-container .values-left p {
   font-size: 1.2rem;
   line-height: 1.5;
 }
-.s2 .s2container .s2lc img {
+.values .values-container .values-left img {
   width: 10%;
   height: auto;
 }
-.s2 .s2container .s2rc {
+.values .values-container .values-right {
   width: 60%;
   height: 90%;
   border: #1A1A1A 15px solid;
@@ -231,52 +231,52 @@ header nav button {
   justify-content: space-evenly;
   align-items: center;
 }
-.s2 .s2container .s2rc .righttop {
+.values .values-container .values-right .values-row {
   width: 90%;
   height: 45%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.s2 .s2container .s2rc .righttop .info {
+.values .values-container .values-right .values-row .value-item {
   width: 45%;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
-.s2 .s2container .s2rc .righttop .info p {
+.values .values-container .values-right .values-row .value-item p {
   font-size: 1.1rem;
 }
-.s2 .s2container .s2rc .righttop .info div {
+.values .values-container .values-right .values-row .value-item div {
   width: 100%;
   display: flex;
   gap: 5%;
   align-items: center;
 }
-.s2 .s2container .s2rc .righttop .info div h3 {
+.values .values-container .values-right .values-row .value-item div h3 {
   font-size: 1.5rem;
   font-weight: 500;
 }
 
-.s3 {
+.achievements {
   height: 60vh;
 }
-.s3 .s3container {
+.achievements .achievements-container {
   width: 80%;
   height: 80%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.s3 .s3container .s3card {
+.achievements .achievements-container .achievements-cards {
   width: 100%;
   height: 50%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.s3 .s3container .s3card div {
+.achievements .achievements-container .achievements-cards div {
   width: 32%;
   height: 90%;
   border: #1A1A1A 10px solid;
@@ -286,80 +286,80 @@ header nav button {
   justify-content: space-evenly;
   padding: 0 3%;
 }
-.s3 .s3container .s3card div h3 {
+.achievements .achievements-container .achievements-cards div h3 {
   font-size: 1.7rem;
   font-weight: 500;
 }
-.s3 .s3container .s3card div p {
+.achievements .achievements-container .achievements-cards div p {
   font-size: 1rem;
 }
 
-.textic {
+.section-header {
   width: 90%;
   height: 40%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.textic h2 {
+.section-header h2 {
   font-size: 3rem;
   font-weight: 500;
 }
-.textic p {
+.section-header p {
   font-size: 1.2rem;
 }
-.textic img {
+.section-header img {
   width: 7%;
   height: auto;
 }
 
-.s4 {
+.process {
   height: 100vh;
 }
-.s4 .s4container {
+.process .process-container {
   width: 80%;
   height: 90%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.s4 .s4container .textic {
+.process .process-container .section-header {
   height: 15%;
 }
-.s4 .s4container .cards {
+.process .process-container .process-cards {
   width: 100%;
   height: 75%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.s4 .s4container .cards .topcards, .s4 .s4container .cards .botcards {
+.process .process-container .process-cards .process-top, .process .process-container .process-cards .process-bottom {
   width: 100%;
   height: 48%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.s4 .s4container .cards .topcards .card, .s4 .s4container .cards .botcards .card {
+.process .process-container .process-cards .process-top .process-card, .process .process-container .process-cards .process-bottom .process-card {
   width: 32%;
   height: 100%;
   display: flex;
   flex-direction: column;
 }
-.s4 .s4container .cards .topcards .card .num, .s4 .s4container .cards .botcards .card .num {
+.process .process-container .process-cards .process-top .process-card .step-number, .process .process-container .process-cards .process-bottom .process-card .step-number {
   height: 17%;
   display: flex;
   align-items: center;
   padding-left: 3%;
 }
-.s4 .s4container .cards .topcards .card .num p, .s4 .s4container .cards .botcards .card .num p {
+.process .process-container .process-cards .process-top .process-card .step-number p, .process .process-container .process-cards .process-bottom .process-card .step-number p {
   font-size: 1.3rem;
   color: white;
 }
-.s4 .s4container .cards .topcards .card .num, .s4 .s4container .cards .botcards .card .num {
+.process .process-container .process-cards .process-top .process-card .step-number, .process .process-container .process-cards .process-bottom .process-card .step-number {
   border-left: #703BF7 1px solid;
 }
-.s4 .s4container .cards .topcards .card .words, .s4 .s4container .cards .botcards .card .words {
+.process .process-container .process-cards .process-top .process-card .step-content, .process .process-container .process-cards .process-bottom .process-card .step-content {
   width: 100%;
   height: 70%;
   padding: 3% 0 0 5%;
@@ -371,38 +371,38 @@ header nav button {
   border-radius: 0 15px 15px 15px;
   background-image: linear-gradient(135deg, rgba(112, 59, 247, 0.6) 0%, transparent 15%);
 }
-.s4 .s4container .cards .topcards .card .words h3, .s4 .s4container .cards .botcards .card .words h3 {
+.process .process-container .process-cards .process-top .process-card .step-content h3, .process .process-container .process-cards .process-bottom .process-card .step-content h3 {
   font-size: 1.7rem;
   font-weight: 400;
   background-color: transparent;
 }
-.s4 .s4container .cards .topcards .card .words p, .s4 .s4container .cards .botcards .card .words p {
+.process .process-container .process-cards .process-top .process-card .step-content p, .process .process-container .process-cards .process-bottom .process-card .step-content p {
   font-size: 1.1rem;
   line-height: 1.5;
   background-color: transparent;
 }
 
-.s5 {
+.team {
   height: 80vh;
   align-items: start;
 }
-.s5 .s5container {
+.team .team-container {
   width: 80%;
   height: 90%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.s5 .s5container .textic {
+.team .team-container .section-header {
   height: 25%;
 }
-.s5 .s5container .Team {
+.team .team-container .team-grid {
   width: 100%;
   height: 65%;
   display: flex;
   justify-content: space-between;
 }
-.s5 .s5container .Team .person {
+.team .team-container .team-grid .team-member {
   width: 23%;
   height: 100%;
   border: #262626 1px solid;
@@ -411,10 +411,10 @@ header nav button {
   justify-content: center;
   align-items: center;
 }
-.s5 .s5container .Team .person p, .s5 .s5container .Team .person img, .s5 .s5container .Team .person h2, .s5 .s5container .Team .person div {
+.team .team-container .team-grid .team-member p, .team .team-container .team-grid .team-member img, .team .team-container .team-grid .team-member h2, .team .team-container .team-grid .team-member div {
   background-color: transparent;
 }
-.s5 .s5container .Team .person .personContainer {
+.team .team-container .team-grid .team-member .member-inner {
   width: 90%;
   height: 90%;
   display: flex;
@@ -422,12 +422,12 @@ header nav button {
   justify-content: space-between;
   position: relative;
 }
-.s5 .s5container .Team .person .personContainer .tw {
+.team .team-container .team-grid .team-member .member-inner .social-icon {
   position: absolute;
   align-self: center;
   margin-left: 37%;
 }
-.s5 .s5container .Team .person .personContainer .persInfo {
+.team .team-container .team-grid .team-member .member-inner .member-info {
   margin-top: 5%;
   height: 15%;
   display: flex;
@@ -435,13 +435,13 @@ header nav button {
   justify-content: space-around;
   align-items: center;
 }
-.s5 .s5container .Team .person .personContainer .persInfo h2 {
+.team .team-container .team-grid .team-member .member-inner .member-info h2 {
   font-weight: 500;
 }
-.s5 .s5container .Team .person .personContainer .persInfo p {
+.team .team-container .team-grid .team-member .member-inner .member-info p {
   font-size: 1rem;
 }
-.s5 .s5container .Team .person .personContainer .SayHi {
+.team .team-container .team-grid .team-member .member-inner .member-contact {
   width: 100%;
   height: 15%;
   border: #262626 1px solid;
@@ -451,38 +451,38 @@ header nav button {
   align-items: center;
   padding: 0 4% 0 4%;
 }
-.s5 .s5container .Team .person .personContainer .SayHi button {
+.team .team-container .team-grid .team-member .member-inner .member-contact button {
   border: none;
 }
-.s5 .s5container .Team .person .personContainer .SayHi p {
+.team .team-container .team-grid .team-member .member-inner .member-contact p {
   color: white;
   font-size: 1.1rem;
 }
 
-.s6 {
+.clients-grid {
   height: 100vh;
 }
-.s6 .s6container {
+.clients-grid .clients-container {
   width: 80%;
   height: 80%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.s6 .s6container .textic {
+.clients-grid .clients-container .section-header {
   height: 20%;
 }
-.s6 .s6container .underCards {
+.clients-grid .clients-container .pagination {
   height: 8%;
 }
-.s6 .s6container .clients {
+.clients-grid .clients-container .clients-grid {
   width: 100%;
   height: 65%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.s6 .s6container .clients .client {
+.clients-grid .clients-container .clients-grid .client-card {
   width: 47%;
   height: 90%;
   border: #1A1A1A 10px solid;
@@ -491,92 +491,92 @@ header nav button {
   justify-content: center;
   align-items: center;
 }
-.s6 .s6container .clients .client .clientContainer {
+.clients-grid .clients-container .clients-grid .client-card .client-inner {
   width: 85%;
   height: 85%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.s6 .s6container .clients .client .clientContainer .topCl {
+.clients-grid .clients-container .clients-grid .client-card .client-inner .client-header {
   width: 100%;
   height: 20%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.s6 .s6container .clients .client .clientContainer .topCl div {
+.clients-grid .clients-container .clients-grid .client-card .client-inner .client-header div {
   height: 80%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.s6 .s6container .clients .client .clientContainer .topCl div h2 {
+.clients-grid .clients-container .clients-grid .client-card .client-inner .client-header div h2 {
   font-weight: 500;
   font-size: 1.7rem;
 }
-.s6 .s6container .clients .client .clientContainer .topCl button {
+.clients-grid .clients-container .clients-grid .client-card .client-inner .client-header button {
   width: 30%;
   height: 80%;
   background-color: #1A1A1A;
 }
-.s6 .s6container .clients .client .clientContainer .midCl {
+.clients-grid .clients-container .clients-grid .client-card .client-inner .client-details {
   width: 100%;
   height: 30%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.s6 .s6container .clients .client .clientContainer .midCl .asd {
+.clients-grid .clients-container .clients-grid .client-card .client-inner .client-details .detail-item {
   width: 40%;
   height: 60%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.s6 .s6container .clients .client .clientContainer .midCl .asd div {
+.clients-grid .clients-container .clients-grid .client-card .client-inner .client-details .detail-item div {
   width: 50%;
   display: flex;
   justify-content: space-between;
 }
-.s6 .s6container .clients .client .clientContainer .midCl .asd div p {
+.clients-grid .clients-container .clients-grid .client-card .client-inner .client-details .detail-item div p {
   font-size: 1.2rem;
   color: #999999;
 }
-.s6 .s6container .clients .client .clientContainer .midCl .asd p {
+.clients-grid .clients-container .clients-grid .client-card .client-inner .client-details .detail-item p {
   color: white;
   font-size: 1.2rem;
 }
-.s6 .s6container .clients .client .clientContainer .end {
+.clients-grid .clients-container .clients-grid .client-card .client-inner .client-testimonial {
   padding: 3.5%;
   width: 100%;
   height: 30%;
   border: #1A1A1A 2px solid;
   border-radius: 15px;
 }
-.s6 .s6container .clients .client .clientContainer .end p {
+.clients-grid .clients-container .clients-grid .client-card .client-inner .client-testimonial p {
   background-color: transparent;
 }
-.s6 .s6container .clients .client .clientContainer .end {
+.clients-grid .clients-container .clients-grid .client-card .client-inner .client-testimonial {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.s6 .s6container .clients .client .clientContainer .end p {
+.clients-grid .clients-container .clients-grid .client-card .client-inner .client-testimonial p {
   font-size: 1rem;
 }
-.s6 .s6container .clients .client .clientContainer .end .whitep {
+.clients-grid .clients-container .clients-grid .client-card .client-inner .client-testimonial .whitep {
   color: white;
 }
 
-.s7 {
+.cta {
   height: 40vh;
   background-image: url(/kartinki/main1/BacgraundS5.png);
   background-repeat: no-repeat;
   background-size: 100% 80%;
   background-position: bottom;
 }
-.s7 .s7container {
+.cta .cta-container {
   width: 80%;
   height: 60%;
   display: flex;
@@ -584,7 +584,7 @@ header nav button {
   justify-content: space-between;
   background-color: transparent;
 }
-.s7 .s7container div {
+.cta .cta-container div {
   height: 90%;
   display: flex;
   flex-direction: column;
@@ -592,14 +592,14 @@ header nav button {
   width: 70%;
   gap: 10%;
 }
-.s7 .s7container div h2 {
+.cta .cta-container div h2 {
   font-size: 2.7rem;
   font-weight: 500;
 }
-.s7 .s7container div p {
+.cta .cta-container div p {
   font-size: 1.05rem;
 }
-.s7 .s7container button {
+.cta .cta-container button {
   width: 13%;
   height: 25%;
 }
@@ -609,37 +609,37 @@ footer {
   display: flex;
   flex-direction: column;
 }
-footer .ftop {
+footer .footer-top {
   width: 100%;
   height: 80%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-footer .ftop .ftopCont {
+footer .footer-top .footer-top-inner {
   width: 80%;
   height: 65%;
   display: flex;
   justify-content: space-between;
 }
-footer .ftop .ftopCont .ftrc {
+footer .footer-top .footer-top-inner .footer-brand {
   width: 30%;
   height: 55%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-footer .ftop .ftopCont .ftrc .flogo {
+footer .footer-top .footer-top-inner .footer-brand .footer-logo {
   width: 36%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-footer .ftop .ftopCont .ftrc .flogo h3 {
+footer .footer-top .footer-top-inner .footer-brand .footer-logo h3 {
   font-size: 2rem;
   font-weight: 500;
 }
-footer .ftop .ftopCont .ftrc .inputDiv {
+footer .footer-top .footer-top-inner .footer-brand .newsletter {
   width: 100%;
   height: 40%;
   border: #262626 1px solid;
@@ -649,30 +649,30 @@ footer .ftop .ftopCont .ftrc .inputDiv {
   align-items: center;
   padding: 0 5% 0 5%;
 }
-footer .ftop .ftopCont .ftrc .inputDiv input {
+footer .footer-top .footer-top-inner .footer-brand .newsletter input {
   color: #999999;
   font-size: 1.2rem;
   width: 80%;
   height: 100%;
   border: none;
 }
-footer .ftop .ftopCont .ftlc {
+footer .footer-top .footer-top-inner .footer-links {
   width: 60%;
   height: 100%;
   display: flex;
   justify-content: space-between;
 }
-footer .ftop .ftopCont .ftlc ul {
+footer .footer-top .footer-top-inner .footer-links ul {
   list-style: none;
   line-height: 2.5;
 }
-footer .ftop .ftopCont .ftlc ul li {
+footer .footer-top .footer-top-inner .footer-links ul li {
   font-size: 1.1rem;
 }
-footer .ftop .ftopCont .ftlc ul li a {
+footer .footer-top .footer-top-inner .footer-links ul li a {
   text-decoration: none;
 }
-footer .fbot {
+footer .footer-bottom {
   width: 100%;
   height: 20%;
   background-color: #1A1A1A;
@@ -680,7 +680,7 @@ footer .fbot {
   justify-content: center;
   align-items: center;
 }
-footer .fbot .fbotCont {
+footer .footer-bottom .footer-bottom-inner {
   width: 80%;
   height: 100%;
   background-color: transparent;
@@ -688,7 +688,7 @@ footer .fbot .fbotCont {
   align-items: center;
   justify-content: space-between;
 }
-footer .fbot .fbotCont .fblc {
+footer .footer-bottom .footer-bottom-inner .footer-copyright {
   width: 30%;
   height: 100%;
   background-color: transparent;
@@ -696,11 +696,11 @@ footer .fbot .fbotCont .fblc {
   justify-content: space-between;
   align-items: center;
 }
-footer .fbot .fbotCont .fblc p {
+footer .footer-bottom .footer-bottom-inner .footer-copyright p {
   background-color: transparent;
   font-size: 1.1rem;
 }
-footer .fbot .fbotCont .fbrc {
+footer .footer-bottom .footer-bottom-inner .footer-socials {
   width: 20%;
   height: 100%;
   display: flex;
@@ -708,7 +708,7 @@ footer .fbot .fbotCont .fbrc {
   justify-content: space-between;
   background-color: #1A1A1A;
 }
-footer .fbot .fbotCont .fbrc img {
+footer .footer-bottom .footer-bottom-inner .footer-socials img {
   width: 20%;
   height: auto;
   border-radius: 30px;
