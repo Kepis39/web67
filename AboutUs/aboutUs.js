@@ -46,7 +46,7 @@ dreamTeam.innerHTML = Team.map(
             <div class="member-inner">
                 <div class="member-photo">
                     <img src="${i.img}" alt="">
-                    <img src="/kartinki/aboutUs/PurpleX.png" alt="" class="social-icon">
+                    <img src="kartinki/aboutUs/PurpleX.png" alt="" class="social-icon">
                 </div>
                 <div class="member-info">
                     <h2>${i.name}</h2>
@@ -54,7 +54,7 @@ dreamTeam.innerHTML = Team.map(
                 </div>
                 <div class="member-contact">
                     <p>Say Hallo</p>
-                    <button><img src="/kartinki/aboutUs/PurpleTg.png" alt=""></button>
+                    <button><img src="kartinki/aboutUs/PurpleTg.png" alt=""></button>
                 </div>
             </div>
           </div>`
@@ -77,7 +77,7 @@ Peoples.innerHTML = Clients.map(
                 <div class="client-details">
                     <div class="detail-item">
                         <div>
-                            <img src="/kartinki/aboutUs/kvadrat.png" alt="">
+                            <img src="kartinki/aboutUs/kvadrat.png" alt="">
                             <p>Domain</p>
                         </div>
                         <p>Commercial Real Estate</p>
@@ -85,7 +85,7 @@ Peoples.innerHTML = Clients.map(
                     <div style="width: 0.5px; height: 90%; background-color: #999999;"></div>
                     <div class="detail-item">
                         <div>
-                            <img src="/kartinki/aboutUs/molniya.png" alt="">
+                            <img src="kartinki/aboutUs/molniya.png" alt="">
                             <p>Category</p>
                         </div>
                         <p>${i.category}</p>
