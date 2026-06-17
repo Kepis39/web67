@@ -4,25 +4,25 @@ const houses = [
     {img:"/kartinki/main1/VipHouse.png", name:"Rustic Retreat Cottage", description:"An elegant 3-bedroom, 2.5-bathroom townhouse in a gated community...", bed:"3-Bedroom", shower:"3-Bathroom"}
 ];
 
-const cardDiv = document.getElementById('cards');
+const cardDiv = document.getElementById('properties-grid');
 cardDiv.innerHTML = houses.map(
-    i => `<div class="card">
-            <div class="cardCont">
-                <img src="${i.img}" alt="" class="mainimg">
-                <div class="containerCont">
+    i => `<div class="property-card">
+            <div class="property-card-inner">
+                <img src="${i.img}" alt="" class="property-image">
+                <div class="property-details">
                     <h3>${i.name}</h3>
                     <p>${i.description}<a href="">Read more</a></p>
-                    <div class="houseOpt">
+                    <div class="property-features">
                         <button><img src="/kartinki/main1/bed.png" alt="">${i.bed}</button>
                         <button><img src="/kartinki/main1/shower.png" alt="">${i.shower}</button>
                         <button><img src="/kartinki/main1/villa.png" alt="">Villa</button>
                     </div>
-                    <div class="price">
+                    <div class="property-price">
                         <div>
                             <p>Price</p>
                             <h3>$550.000</h3>
                         </div>
-                        <button class="purpleButton">View Property Details</button>
+                        <button class="btn-primary">View Property Details</button>
                     </div>
                 </div>
             </div>
@@ -34,19 +34,19 @@ const review = [
     {titlename:"Efficient and Reliable", text:"Estatein provided us with top-notch service. They helped us sell our property quickly and at a great price. We couldn't be happier with the results.", img:"/kartinki/main1/Emily.png", person:"Emelie Thomson", state:"USA, Florida"},
     {titlename:"Trusted Advisors", text:"The Estatein team guided us through the entire buying process. Their knowledge and commitment to our needs were impressive. Thank you for your support!", img:"/kartinki/main1/John.png", person:"John Mans", state:"USA, Nevada"}
 ];
-const reviewDiv = document.getElementById('reviews');
+const reviewDiv = document.getElementById('reviews-grid');
 reviewDiv.innerHTML = review.map(
-    i => `<div class="review">
-            <div class="reviewContainer">
+    i => `<div class="review-card">
+            <div class="review-card-inner">
                 <img src="/kartinki/main1/stars.png" alt="">
-                <div class="desc">
+                <div class="review-content">
                     <h3>${i.titlename}</h3>
                     <p>${i.text}</p>
                 </div>
-                <div class="person">
+                <div class="review-author">
                     <img src="${i.img}" alt="">
                     <div>
-                        <h3>${i.person}</h3>
+                        <h3>${i.review-author}</h3>
                         <p style="color=#999999">${i.state}</P>
                     </div>
                 </div>
