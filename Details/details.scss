@@ -6,7 +6,7 @@
     font-family: 'Urbanist', sans-serif;
 }
 body{background-color: #141414;}
-header, .s1, .s2, .s3, .s4, .s5, footer{
+header, .property-details, .inquiry-form, .pricing, .faq, .cta, footer{
     width: 100vw;
     display: flex;
     justify-content: center;
@@ -23,18 +23,18 @@ button, nav button{
     border: #262626 1px solid;
     border-radius: 10px;
 }
-.s1 .purpleButton, .purpleButton{
+.property-details .btn-primary, .btn-primary{
     background-color: #703BF7;
     color: white;
     font-size: 1.2rem;
     border: #703BF7 1px solid;
     border-radius: 10px;
 }
-.wow{
+.badge-icon{
     width: 4.5%;
     height: auto;
     }
-.textic{
+.section-header{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -55,13 +55,13 @@ button, nav button{
         h2{font-size: 3rem; font-weight: 500;}
         p{font-size: 1.2rem; color: #999999; width: 75%;}
     }
-.underCards{
+.pagination{
         width: 100%;
         height: 10%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        .tap{
+        .pagination-controls{
             width: 100%;
             height: 70%;
             display: flex;
@@ -84,7 +84,7 @@ button, nav button{
             }
         }    
     }   
-header, nav, .logo, .knopki{background-color: #1A1A1A;}
+header, nav, .brand, .nav-links{background-color: #1A1A1A;}
 header{
     height: 8vh;
     nav{
@@ -94,7 +94,7 @@ header{
         justify-content: space-between;
         align-items: center;
         a{text-decoration: none;}
-            .logo{
+            .brand{
                 display: flex;
                 align-items: center;
                 width: 9%;
@@ -105,7 +105,7 @@ header{
                         font-size: 1.9rem;
                     }
             }
-            .knopki{
+            .nav-links{
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
@@ -126,22 +126,22 @@ header{
             }
     }
 }
-.s1{
+.property-details{
     height: 200vh;
-    .s1container{
+    .property-container{
         width: 85%;
         height: 90%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        .s1top{
+        .property-header{
             width: 100%;
             height: 5%;
             display: flex;
             justify-content: space-between;
             align-items: center;
-             .s1topl{
+             .property-title{
                 width: 33%;
                 height: 100%;
                 display: flex;
@@ -161,7 +161,7 @@ header{
                     p{font-size: 1.2rem; color: white;}
                 }
              }
-             .s1topr{
+             .property-price{
                  width: 10%;
                  height: 35%;
                  display: flex;
@@ -171,7 +171,7 @@ header{
                 p{font-size: 1.2rem;}
              }
         }
-        .s1mid{
+        .property-gallery{
             width: 100%;
             height: 52%;
             border: #262626 1px solid;
@@ -181,7 +181,7 @@ header{
             flex-direction: column;
             align-items: center;
             justify-content: space-evenly;
-            .pic{
+            .gallery-thumbnails{
                 width: 95%;
                 height: 13%;
                 border: #262626 1px solid;
@@ -192,14 +192,14 @@ header{
                 align-items: center;
                 img{height: 80%;width: auto;}
             }
-            .s1midbig{
+            .gallery-main{
                 width: 95%;
                 height: 65%;
                 display: flex;
                 justify-content: space-between;
                 img{height: 100%; width: 49%;}
             }
-            .s1midniz{
+            .gallery-controls{
                 width: 20%;
                 height: 7%;
                 display: flex;
@@ -211,14 +211,14 @@ header{
                 button{width: 15%; height: 75%; border-radius: 50%; display: flex;align-items: center;justify-content: center;}
             }
         }
-        .s1niz{
+        .property-info{
             width: 100%;
             height: 37%;
             display: flex;
             justify-content: space-between;
             h2{font-size: 1.75rem;}
             p{font-size: 1.4rem; line-height: 1.5;}
-            .s1nizl, .s1nizr{
+            .property-description, .property-features{
                 width: 49%;
                 border: #262626 1px solid;
                 border-radius: 15px;
@@ -228,15 +228,15 @@ header{
                 justify-content: space-around;
                 padding-left: 3%;
             }
-            .s1nizl{
+            .property-description{
                 height: 60%;
-                .textinfo{
+                .property-specs{
                     width: 95%;
                     height: 20%;
                     display: flex;
                     justify-content: space-between;
                     h2{font-size:1.6rem;}
-                    .inf{
+                    .spec-item{
                         height: 100%;
                         display: flex;
                         flex-direction: column;
@@ -252,7 +252,7 @@ header{
                         }
                     }
                 }
-                .text{
+                .description-text{
                         width: 100%;
                         height: 45%;
                         display: flex;
@@ -260,13 +260,13 @@ header{
                         justify-content: space-between;
                     }
             }
-            .s1nizr{
-                .nebo{
+            .property-features{
+                .features-list{
                     height: 75%;
                     display: flex;
                     flex-direction: column;
                     justify-content: space-between;
-                    .rty{
+                    .feature-item{
                         width: 100%;
                         height: auto;
                         min-height: 15%;
@@ -290,14 +290,14 @@ header{
         }
     }
 }
-.s2{
+.inquiry-form{
     height: 100vh;
-    .s2container{
+    .inquiry-container{
         width: 85%;
         height: 90%;
         display: flex;
         justify-content: space-between;
-        .s2lc{
+        .inquiry-text{
             width: 30%;
             height: 34%;
             display: flex;
@@ -308,7 +308,7 @@ header{
             p{font-size: 1.3rem; line-height: 1.5;}
             img{width: 15%; height: auto;}
         }
-        .dsa{
+        .form-card{
             border-radius: 15px;
             border: #262626 1px solid;
             align-self: center;
@@ -318,28 +318,28 @@ header{
             display: flex;
             justify-content: center;
             align-items: center;
-            .dsaContainer{
+            .form-card-inner{
                 width: 90%;
                 height: 85%;
                 background-color: #141414;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
-                .dsaTop{
+                .form-fields{
                     width: 100%;
                     height: 50%;
                     background-color: #141414;
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
-                    .rd{
+                    .form-fields-group{
                         width: 100%;
                         background-color: #141414;
                         height: 100%;
                         display: flex;
                         flex-direction: column;
                         justify-content: space-between;
-                        .inp{
+                        .form-row{
                             background-color: #141414;
                             display: flex;
                             justify-content: space-between;
@@ -365,7 +365,7 @@ header{
                             }
                         }
                     }
-                    .longinp{
+                    .form-field-full{
                         background-color: #141414;
                         display: flex;
                         flex-direction: column;
@@ -402,7 +402,7 @@ header{
                 div{
                     background-color: transparent;
                 }
-                .dsaMid{
+                .form-message-area{
                     display: flex;
                     flex-direction: column;
                     justify-content: space-between;
@@ -423,7 +423,7 @@ header{
                         padding: 8px;
                     }
                 }
-                .dsaNiz{
+                .form-footer{
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
@@ -450,19 +450,19 @@ header{
 
     }
 }
-.s3{
+.pricing{
     height: 280Vh;
-    .s3container{
+    .pricing-container{
         height: 90%;
         width: 85%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        .textic{
+        .section-header{
             height: 7%;
             p{width: 80%;}
         }
-        .note{
+        .pricing-note{
             width: 100%;
             height: 3.5%;
             background-color: #262626;
@@ -475,13 +475,13 @@ header{
             h3{font-size: 1.5rem;}
             p{font-size: 1.2rem;}
         }
-        .looong{
+        .pricing-content{
             width: 100%;
             height: 85%;
             display: flex;
             justify-content: space-between;
             align-items: flex-start;
-            .ll{
+            .pricing-total{
                 width: 15%;
                 height: 4%;
                 display: flex;
@@ -490,7 +490,7 @@ header{
                 p{font-size: 1.3rem;}
                 h2{font-size: 2.5rem;}
             }
-            .lr{
+            .pricing-breakdown{
                 width: 80%;
                 height: 100%;
                 display: flex;
@@ -498,13 +498,13 @@ header{
                 justify-content: space-between;
                 h3{font-size: 1.7rem;}
                 p{font-size: 1.1rem;}
-                .grayP{
+                .pricing-note-badge{
                     padding: 10px;
                     background-color: #1A1A1A;
                     border-radius: 20px;
                     width: auto; height: auto;
                 }
-                .first, .last{
+                .pricing-section, .pricing-section{
                     width: 100%;
                     border: #262626 1px solid;
                     border-radius: 15px;
@@ -512,7 +512,7 @@ header{
                     flex-direction: column;
                     justify-content: space-evenly;
                     align-items: center;
-                    .zagolovok{
+                    .section-header-row{
                         display: flex;
                         width: 95%;
                         height: 15%;
@@ -524,13 +524,13 @@ header{
                             background-color: #1A1A1A;
                         }
                     }
-                    .doubleDiv{
+                    .pricing-row{
                         width: 95%;
                         height: 23%;
                         display: flex;
                         justify-content: space-between;
                         align-items: center;
-                        .fi{
+                        .pricing-item{
                             width: 48%;
                             height: 60%;
                             display: flex;
@@ -545,7 +545,7 @@ header{
                             }
                         }
                     }
-                    .fiLsat{
+                    .pricing-item-full{
                        width: 95%;
                         height: 13%;
                         display: flex;
@@ -559,11 +559,11 @@ header{
                         }
                     }
                 }
-                .first{
+                .pricing-section{
                     height: 30%;
                     button{height: 65%;}
                 }
-                .last{
+                .pricing-section{
                     height: 22%;
                     button{height: 85%;}
                 }
@@ -572,23 +572,23 @@ header{
         }
     }
 }
-.s4{
+.faq{
     height: 100vh;
-    .s4container{
+    .faq-container{
         width: 85%;
         height: 80%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        .textic{height: 20%; button{height: 80%;}}
-        .que{
+        .section-header{height: 20%; button{height: 80%;}}
+        .faq-grid{
              width: 100%;
             height: 50%;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            .q{
+            .faq-card{
                 width: 32%;
                 height: 90%;
                 border: #1A1A1A 3px solid;
@@ -598,7 +598,7 @@ header{
                 justify-content: center;
                 h3{font-size: 1.7rem; font-weight: 500;}
                 p{font-size: 1.25rem; line-height: 1.5;}
-                .qCont{
+                .faq-card-inner{
                     width: 80%;
                     height: 80%;
                     display: flex;
@@ -616,13 +616,13 @@ header{
         }
     }
 }
-.s5{
+.cta{
     height: 40vh;
     background-image: url(/kartinki/main1/BacgraundS5.png);
     background-repeat: no-repeat;
     background-size: 100% 80%;
     background-position: bottom;
-    .s5container{
+    .cta-container{
         width: 80%;
         height: 60%;
         display: flex;
@@ -649,31 +649,31 @@ footer{
     height: 50vh;
     display: flex;
     flex-direction: column;
-    .ftop{
+    .footer-top{
         width: 100%;
         height: 80%;
         display: flex;
         justify-content: center;
         align-items: center;
-        .ftopCont{
+        .footer-top-inner{
             width: 80%;
             height: 65%;
             display: flex;
             justify-content: space-between;
-            .ftrc{
+            .footer-brand{
                 width: 30%;
                 height: 55%;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
-                .flogo{
+                .footer-logo{
                     width:36%;
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
                     h3{font-size: 2rem; font-weight: 500;}
                 }
-                .inputDiv{
+                .newsletter{
                     width: 100%;
                     height: 40%;
                     border: #262626 1px solid;
@@ -692,7 +692,7 @@ footer{
                     }
                 }
             }
-            .ftlc{
+            .footer-links{
                 width: 60%;
                 height: 100%;
                 display: flex;
@@ -710,21 +710,21 @@ footer{
             }
         }
     }
-    .fbot{
+    .footer-bottom{
         width: 100%;
         height: 20%;
         background-color: #1A1A1A;
         display: flex;
         justify-content: center;
         align-items: center;
-        .fbotCont{
+        .footer-bottom-inner{
             width: 80%;
             height: 100%;
             background-color: transparent;
             display: flex;
             align-items: center;
             justify-content: space-between;
-            .fblc{
+            .footer-copyright{
                 width: 30%;
                 height: 100%;
                 background-color: transparent;
@@ -733,7 +733,7 @@ footer{
                 align-items: center;
                 p{background-color: transparent; font-size: 1.1rem;}
             }
-            .fbrc{
+            .footer-socials{
                 width: 20%;
                 height: 100%;
                 display: flex;
